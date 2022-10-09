@@ -1,0 +1,100 @@
+.blog-box figcaption .blog-img {
+    width: 300px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    background-position: center;
+
+}
+
+.blog-box figcaption .blog-name {
+    position: relative;
+    top: 160px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-box {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blog-box figcaption p {
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pozvanka-block p {
+    margin: 10px;
+}
+
+.blog-box figcaption a {
+    color: var(--dark-gray);
+    font-weight: 700;
+}
+
+.blog-box figcaption a:hover {
+    color: var(--red);
+
+}
+
+.blog-box figcaption {
+    display: flex;
+}
+
+.blog-box figcaption .blog-img {
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.blog-box figcaption .blog-name {
+
+    top: 240px;
+
+
+
+}
+.blog {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-box figcaption {
+    display: block;
+}
+
+.blog-box {
+    max-width: 400px;
+    
+}
+
+.blog {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+@media (min-width: 520px){
+.blog-box{
+    margin: 20px;
+}
+}

@@ -1,0 +1,272 @@
+
+.description figure {
+    position: relative;
+    margin: 10px;
+
+}
+
+.description img {
+    width: 300px;
+}
+
+.description figcaption {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-gray);
+    position: absolute;
+    left: 50%;
+    margin-left: -119.5px;
+    top: 50%;
+    margin-top: -89.5px;
+    height: 179px;
+    background: var(--white);
+    align-items: center;
+    justify-content: center;
+    width: 239px;
+    text-align: center;
+    padding: 1em;
+
+}
+
+.description figcaption a {
+    padding: 80px;
+    color: var(--dark-gray);
+}
+
+.description .opacity {
+    opacity: .6;
+    transition: .2s ease-in;
+}
+
+/* horizontal scroll */
+.sluzby a:hover img,
+a:hover h2 {
+    opacity: .4;
+    transition: 0.5s;
+
+}
+.description figure:hover .opacity{
+    opacity: .9;
+}
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: 0px;
+}
+
+.texty {
+
+    margin: 10px;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+
+
+.citat {
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.citat p {
+    font-weight: 300;
+}
+
+.citat p:last-child {
+    font-weight: 700;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#o-mne {
+    margin-top: 40px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portret+div {
+    max-width: 520px;
+
+}
+
+#o-mne {
+
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+#o-mne .portret {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+/* Footer */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+    background-color: var(--white);
+    margin-top: 40px;
+
+}
+
+.main-footer ul li a {
+    color: inherit;
+}
+
+.main-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-footer ul {
+    margin: 10px;
+
+    text-align: center;
+}
+
+.main-footer ul li {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px;
+
+}
+
+.main-footer ul li:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ikons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ikons a {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin: 10px;
+}
+
+
+
+.up img {
+    transform: rotate(-90deg);
+    opacity: .4;
+
+}
+
+.up img:hover {
+    opacity: 1;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sluzby figure {
+    width: 300px;
+    height: 225px;
+    background-color: var(--white);
+    flex-shrink: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sluzby figure figcaption {
+    margin-bottom: 25px;
+}
+.sluzba-text-wrapper p {
+    margin-left: 10px;
+}
+.sluzby figure img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.foto_sluzby {
+    width: 245px;
+    height: 245px;
+    margin: 6PX;
+    flex-shrink: 0;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sluzby_galerie {
+    flex-shrink: 0;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.foto_sluzby_1 {
+    margin-left: 0;
+}
+
+.foto_sluzby_5 {
+    margin-right: 0;
+}
+
+.sluzby_navrh {
+
+
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sluzby_realizace {
+    margin: 40px;
+}
+
+.sluzby_realizace section .galerie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sluzby_foto {
+    width: 300px;
+    height: 225px;
+    margin: 6px;
+    background-position: center;
+    flex-shrink: 0;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.galerie {
+    margin-left: 10px;
+    margin-right: 10px;
+}
