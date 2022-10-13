@@ -63,7 +63,12 @@
     height: 225px;
     margin: 10px;
     object-fit: cover;
+    transition: .25s ;
     
+    
+}
+.gallery-img:hover{
+    filter: blur(1px);
 }
 @media (max-width:520px){
     .gallery-img{

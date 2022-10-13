@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
-import FacebookIcon from '../../assets/svg/facebook.svg'
-import InstagramIcon from '../../assets/svg/instagram.svg'
 
 export default function Footer(){
     const height = setTimeout(() => {
@@ -39,8 +37,8 @@ export default function Footer(){
                 <div className="footer-col">
                     <h4>sledujte nás</h4>
                     <div className="social-links">
-                        <a href="https://www.facebook.com/lenkadesign.cz"><img src={FacebookIcon} alt="" /></a>
-                        <a href="https://www.instagram.com/designlenka/?hl=cs"><img src={InstagramIcon} alt="" /></a>
+                        <a href="https://www.facebook.com/lenkadesign.cz"><img src="svg/facebook.svg" alt="" /></a>
+                        <a href="https://www.instagram.com/designlenka/?hl=cs"><img src="svg/instagram.svg" alt="" /></a>
                     </div>
                 </div>
             </div>

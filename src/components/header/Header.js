@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './style.css'
-import Logo from '../../assets/svg/lenka-deisgn-logo.svg'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
@@ -14,7 +13,7 @@ export default function Header() {
       <nav className="navbar">
           <div className="navbar-container max-width">
               <Link to='/' className="navbar-logo"> 
-              <img src={Logo} width="200" alt="" />
+              <img src="svg/lenka-deisgn-logo.svg" width="200" alt="" />
               </Link>
               <div className={isActive ? 'hamburger-clicked hamburger-lines' : 'hamburger-lines'} onClick={hamburgerToggle}>
                   <span className="line line2"></span>

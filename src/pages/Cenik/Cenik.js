@@ -4,6 +4,7 @@ import Footer from '../../components/footer/Footer'
 import './cenik.css'
 import CenikSluzeb from './CenikSluzeb'
 import { Helmet } from 'react-helmet';
+import Fade from 'react-reveal/Fade';
 
 function Cenik() {
   return (
@@ -15,7 +16,7 @@ function Cenik() {
     <Header />
     <main>
       <div className="max-width text-block">
-              <h1>Ceník služeb interiérového designu</h1>
+              <Fade bottom cascade><h1>Ceník služeb interiérového designu</h1></Fade>
               <p>S každým klientem prodiskutuji jeho požadavky a následně předložím cenovou nabídku.</p>
               <h2>Ceník služeb interiérového designu</h2>
               <p>Každý projekt je individuální, proto nelze říct přesnou částku ceny dopředu, aniž bych o projektu něco věděla. Záleží na domluvě s klientem, jaké služby designu požaduje, jaké detailní vybavení požaduje, výrobu na míru či hotové výrobky… a mnoho dalších aspektů od kterých se cena odvíjí.</p>

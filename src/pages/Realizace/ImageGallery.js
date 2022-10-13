@@ -5,6 +5,7 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -13,8 +14,10 @@ function ImageGallery(props) {
     return (
         <div className="sluzba max-width">
             <div className='sluzba-text-wrapper'>
+            <Fade bottom cascade>
                 <h2 id={props.id} className='sluzba-title'>{props.title}</h2>
                 <p>{props.text}</p>
+                </Fade>
             </div>
             <LightGallery
                 speed={500}
@@ -22,7 +25,7 @@ function ImageGallery(props) {
             >
                 {props.render.map((item, index) => (
                     <a href={item.image} key={index}>
-                    <img alt={props.title} src={item.thumbnail} className='gallery-img'/>
+                    <img alt={props.title} src={item.thumbnail} className='gallery-img' loading="lazy"/>
                     </a>
 
                 ))}

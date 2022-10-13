@@ -1,10 +1,12 @@
 import React from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
-
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 function RealizaceNav() {
   return (
     <div className="max-width">
-            <h1>Vizualizace</h1>
+          <Fade bottom cascade><h1>Vizualizace</h1></Fade>
+          <Slide top cascade>
             <div className=" description scroll druhy">
                 <Link to="#komercni_projekty"><figure>
                     <figcaption className="opacity">Komerční projekty</figcaption>
@@ -54,6 +56,7 @@ function RealizaceNav() {
                     </figure>
                 </Link>
             </div>
+                </Slide>
           </div>
   )
 }
