@@ -11,54 +11,40 @@ function Realizace() {
 
   const komercniProjekty = RealizaceData.komercniProjekty.map((item) => {
     return item
-
   })
   const malyByt = RealizaceData.malyByt.map((item) => {
     return item
-
   })
   const celyDum = RealizaceData.celyDum.map((item) => {
     return item
-
   })
   const homestaging = RealizaceData.homestaging.map((item) => {
     return item
-
   })
   const kuchyne = RealizaceData.kuchyne.map((item) => {
     return item
-
   })
   const obyvaciPokoje = RealizaceData.obyvaciPokoje.map((item) => {
     return item
-
   })
   const detskePokoje = RealizaceData.detskePokoje.map((item) => {
     return item
-
   })
   const loznice = RealizaceData.loznice.map((item) => {
     return item
-
   })
   const koupelny = RealizaceData.koupelny.map((item) => {
     return item
-
   })
   const wellness = RealizaceData.wellness.map((item) => {
     return item
-
   })
   const chodby = RealizaceData.chodby.map((item) => {
     return item
-
   })
   const nabytekNaMiru = RealizaceData.nabytekNaMiru.map((item) => {
     return item
-
   })
-  
-
 
   return (
     <>

@@ -1,10 +1,14 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
-
+import { Helmet } from 'react-helmet';
 function Konzultace() {
   return (
     <>
+    <Helmet>
+        <title>Konzultace | Lenka Design</title>
+        
+    </Helmet>
     <Header />
     <div className="max-width text-block types"> 
          <h1>Konzultace</h1>   

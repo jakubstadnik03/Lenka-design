@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import LightGallery from 'lightgallery/react';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
@@ -6,7 +6,7 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import Fade from 'react-reveal/Fade';
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function ImageGallery(props) {
 
     return (
@@ -23,7 +23,7 @@ function ImageGallery(props) {
             >
                 {props.render.map((item, index) => (
                     <a href={item.image} key={index}>
-                    <img alt={props.title} src={item.thumbnail} className='gallery-img'/>
+                    <LazyLoadImage alt={props.title} src={item.thumbnail} className='gallery-img'/>
                     </a>
 
                 ))}

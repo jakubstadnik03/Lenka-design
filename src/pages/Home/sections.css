@@ -37,6 +37,8 @@
     width: 239px;
     text-align: center;
     padding: 1em;
+    transition: .25s ease-in;
+    cursor: pointer;
 
 }
 
@@ -53,6 +55,14 @@
     scrollbar-width: 0px;
     
 }
+.sluzby-title{
+    cursor: pointer;
+}
+
+.sluzby-title a:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.87);
+}
 @media only screen and (min-width:920px) {
     .description figure {
 
@@ -60,10 +70,6 @@
 
     }
 
-    .sluzby-title {
-
-        opacity: 0;
-    }
 
     #o-mne {
 

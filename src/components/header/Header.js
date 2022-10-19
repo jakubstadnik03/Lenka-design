@@ -13,7 +13,7 @@ export default function Header() {
       <nav className="navbar">
           <div className="navbar-container max-width">
               <Link to='/' className="navbar-logo"> 
-              <img src="svg/lenka-deisgn-logo.svg" width="200" alt="" />
+              <img src="svg/lenka-deisgn-logo.svg" width="200" alt="Logo Lenka Design" />
               </Link>
               <div className={isActive ? 'hamburger-clicked hamburger-lines' : 'hamburger-lines'} onClick={hamburgerToggle}>
                   <span className="line line2"></span>

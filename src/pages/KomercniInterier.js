@@ -1,10 +1,13 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
-
+import { Helmet } from 'react-helmet';
 function KomercniInterier() {
   return (
     <>
+    <Helmet>
+    <title>Návrh komerčních interiérů - Liberec a okolí | Lenka Design</title>
+    </Helmet>
     <Header />
     <div className="max-width text-block types">
         <h1>Návrh komerčních interiérů - Liberec a okolí</h1>     

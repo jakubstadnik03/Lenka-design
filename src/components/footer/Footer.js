@@ -1,13 +1,10 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
 
 export default function Footer(){
-    const height = setTimeout(() => {
-        const clientHeight = document.querySelector('#root').clientHeight;
-    }, 500);
     return ( 
-        <footer className={ height < 800 ? ' footer' : 'footer'}>
+        <footer>
         <div className="max-width">
             <div className="row">
                 <div className="footer-col">
@@ -29,7 +26,7 @@ export default function Footer(){
                 <div className="footer-col">
                     <h4>Kontakt</h4>
                     <ul>
-                        <li><a href="#">Minkovická 170 46312 Šimonovice, Liberec Česká republika</a></li>
+                        <li><div>Minkovická 170 46312 Šimonovice, Liberec Česká republika</div></li>
                         <li><a href="tel:+420723838086">Telefon: +420 723 838 086</a></li>
                         <li><a href="mailto:tadnikovalenka@gmail.com">E-mail: stadnikovalenka@gmail.com</a></li>
                     </ul>

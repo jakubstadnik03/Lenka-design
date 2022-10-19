@@ -9,11 +9,11 @@ function Component(props) {
     <figure className="blog-box">
                         <figcaption>
                             
-                            <div className="blog-img " style={myStyle}>
-                            <a target="_blank" href={props.file} download><h3 className="blog-name">{props.title}</h3></a></div>
+                            <div className="blog-img " rel="noreferrer" style={myStyle}>
+                            <a target="_blank" rel="noreferrer" rel="noreferrer"href={props.file} download><h3 className="blog-name">{props.title}</h3></a></div>
                             <div>
                                 <p>{props.text}</p>
-                                    <p><a target="_blank" href={props.file} download> Stáhnout celý článek</a></p>
+                                    <p><a target="_blank" rel="noreferrer" href={props.file} download> Stáhnout celý článek</a></p>
                             </div>
                         </figcaption>
     </figure>

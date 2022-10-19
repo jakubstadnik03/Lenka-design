@@ -1,20 +1,13 @@
-
-@media (min-width: 1200px){
-
-.glide__slides{
+.slide-container .each-slide div{
     height: calc(100vh - 83px);
+    background-position: bottom;
 }
-.glide__track{
-    height: calc(100vh - 83px);
+.slide-container .each-slide:hover{
+    cursor: grab;
 }
-.glide__slide{
-    width: 100%;
-    object-fit: cover;
-}
-.glide__arrow{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+.default-nav{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .glide{
     z-index: 0;
@@ -62,6 +55,10 @@
 @media (max-width: 920px){
     .hero-text{
         display: none;
+    }
+    .slide-container .each-slide div{
+    height: 37vh;
+    background-size: cover;
     }
 }
 
