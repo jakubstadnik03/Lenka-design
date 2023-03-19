@@ -7,19 +7,19 @@ import './slider.css'
   const ImageGlider = () => {
     const slideImages = [
       {
-        url: 'img/uvod/uvod1.webp',
+        url: 'img/uvod/uvod1.jpg',
       },
       {
-        url: 'img/uvod/uvod2.webp',
+        url: 'img/uvod/uvod2.jpg',
       },
       {
-        url: 'img/uvod/uvod3.webp',
+        url: 'img/uvod/uvod3.jpg',
       },
       {
-        url: 'img/uvod/uvod4.webp',
+        url: 'img/uvod/uvod4.jpg',
       },
       {
-        url: 'img/uvod/uvod5.webpnp',
+        url: 'img/uvod/uvod5.jpg',
       },
     ];
 

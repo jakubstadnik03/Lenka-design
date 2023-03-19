@@ -34,8 +34,8 @@ export default function Footer(){
                 <div className="footer-col">
                     <h4>sledujte nás</h4>
                     <div className="social-links">
-                        <a href="https://www.facebook.com/lenkadesign.cz"><img src="svg/facebook.svg" alt="Facebook" /></a>
-                        <a href="https://www.instagram.com/designlenka/?hl=cs"><img src="svg/instagram.svg" alt="Instagram" /></a>
+                        <a href="https://www.facebook.com/lenkadesign.cz"><img src="svg/facebook.svg" alt="" /></a>
+                        <a href="https://www.instagram.com/designlenka/?hl=cs"><img src="svg/instagram.svg" alt="" /></a>
                     </div>
                 </div>
             </div>
