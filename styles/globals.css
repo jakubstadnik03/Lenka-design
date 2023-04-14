@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Proza+Libre:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+}
+:root {
+  --red: #9a040c;
+  --white: #ffffff;
+  --gray: #707070;
+  --light-gray: #f2f2f2;
+  --dark-gray: #323232;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Proza Libre', sans-serif !important;
+}
+a:hover{
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  padding: 0;
+}
+ul{
+  padding-left: 0 !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+h2 {
+  color: #9a040c;
+  font-weight: normal;
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body, textarea {
+  font-family: 'Open Sans', sans-serif !important;
+
+  color: var(--dark-gray);
+  background-color: var(--light-gray);
+
+
+}
+address {
+  font-style: inherit;
+}
+
+p{
+  margin-bottom: .5rem;
+  margin: .2em;
+
+}
+
+
+main {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.none {
+  position: absolute;
+  left: -9999px;
+}
+
+.logo {
+
+  width: 200px;
+}
+a{
+  color: inherit;
+}
+.max-width {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: normal;
+  padding: 10px;
+
+}
+.max-width-small{
+  max-width: 1300px;
+}
+.poukazka {
+  margin-top: 30px;
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+
+@media only screen and (min-width:920px) {
+  h1 {
+      font-size: 60px;
+      margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+      margin-top: 20px;
+      font-size: 3em;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+
+.button{
+  padding: 20px 34px;
+  border: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.button-rounded{
+  padding: 10px 20px;
+  border: solid 2px var(--red);
+  border-radius: 20px;
+  transition: .25s ease-in-out;
+  font-weight: bold;
+  margin: 10px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.button-rounded:hover{
+  background-color: var(--red);
+  color: white;
+}
+.text-block p {
+  padding: 5px;
+}
+.lg-react-element{
+display: flex;
+overflow-x: auto;
+}
+@media (min-width:920px) {
+  .lg-react-element{
+    display: block;
+    }
+}
+
+
+.lg-thumb.lg-group{
+  display: none !important;
+}
+
+@import 'bootstrap/dist/css/bootstrap.min.css';

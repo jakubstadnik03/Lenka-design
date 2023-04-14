@@ -1,0 +1,35 @@
+cenik h2{
+    font-size: 30px;
+    font-weight:200;
+}
+ul {
+    list-style: disc;
+    padding: 0;
+}
+.text-block .price-h3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.price ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price li {
+    min-height: 44px;
+    font-size: 16px;
+}
+.text-block li {
+    width: 100%;
+}
+.seznam{
+    padding: 20px;
+}
+
+@media (max-width: 920px){
+    .price li {
+        font-size: 14px;
+    }
+}

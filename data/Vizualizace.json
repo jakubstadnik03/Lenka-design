@@ -1,0 +1,122 @@
+
+{"nav":[
+  {"link": "#komercni_projekty", "text": "Komerční projekty", "img": "img/vizualizace/komercni_projekty_small_main.jpg"},
+  {"link": "#cely_dum", "text": "Celý dům", "img": "img/vizualizace/cely_dum_small_main.jpg"},
+  {"link": "#kuchyne", "text": "Kuchyně", "img": "img/vizualizace/kuchyne_small_main.jpg"},
+  {"link": "#obyvaci_pokoje", "text": "Obývací pokoje", "img": "img/vizualizace/obyvaci_pokoje_small_main.jpg"},
+  {"link": "#detske_pokoje", "text": "Dětské pokoje", "img": "img/vizualizace/detske_pokoje_small_main.jpg"},
+  {"link": "#loznice", "text": "Ložnice", "img": "img/vizualizace/loznice_small_main.jpg"},
+  {"link": "#koupelny", "text": "Koupelny", "img": "img/vizualizace/koupelny_small_main.jpg"},
+  {"link": "#wellness", "text": "Wellness", "img": "img/vizualizace/wellness_small_main.jpg"}
+],
+    "komercniProjekty":[
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small1.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large1.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small2.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large2.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small3.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large3.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small5.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large5.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small6.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large6.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small8.jpeg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large8.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small_1.jpg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small_2.jpg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small_3.jpg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small_4.jpg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/komercni_projekty/komercni_projekty_small_6.jpg", "image":"img/vizualizace/komercni_projekty/komercni_projekty_large_6.jpg" }
+    ],
+
+    "celyDum":[
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small1.jpeg", "image":"img/vizualizace/cely_dum/cely_dum_large1.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small2.jpeg", "image":"img/vizualizace/cely_dum/cely_dum_large2.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small3.jpeg", "image":"img/vizualizace/cely_dum/cely_dum_large3.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small4.jpeg", "image":"img/vizualizace/cely_dum/cely_dum_large4.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small5.jpeg", "image":"img/vizualizace/cely_dum/cely_dum_large5.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_1.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_2.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_3.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_4.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_5.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_5.jpg" },
+      { "thumbnail":"img/vizualizace/cely_dum/cely_dum_small_6.jpg", "image":"img/vizualizace/cely_dum/cely_dum_large_6.jpg" }
+    ],
+    "kuchyne":[
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small1.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large1.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small2.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large2.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small3.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large3.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small4.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large4.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small5.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large5.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small6.jpeg", "image":"img/vizualizace/kuchyne/kuchyne_large6.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_1.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_2.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_3.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_4.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_5.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_5.jpg" },
+      { "thumbnail":"img/vizualizace/kuchyne/kuchyne_small_6.jpg", "image":"img/vizualizace/kuchyne/kuchyne_large_6.jpg" }
+    ],
+    "obyvaciPokoje":[
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small1.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large1.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small2.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large2.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small3.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large3.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small4.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large4.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small5.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large5.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small6.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large6.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small7.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large7.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small8.jpeg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large8.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small_1.jpg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small_2.jpg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small_3.jpg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_small_4.jpg", "image":"img/vizualizace/obyvaci_pokoje/obyvaci_pokoje_large_4.jpg" }
+   
+    ],
+    "detskePokoje":[
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small1.jpeg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large1.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small2.jpeg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large2.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small3.jpeg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large3.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_1.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_2.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_3.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_4.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_5.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_5.jpg" },
+      { "thumbnail":"img/vizualizace/detsky_pokoje/detsky_pokoje_small_6.jpg", "image":"img/vizualizace/detsky_pokoje/detsky_pokoje_large_6.jpg" }
+    ],
+    "loznice":[
+      { "thumbnail":"img/vizualizace/loznice/loznice_small1.jpeg", "image":"img/vizualizace/loznice/loznice_large1.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small2.jpeg", "image":"img/vizualizace/loznice/loznice_large2.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small3.jpeg", "image":"img/vizualizace/loznice/loznice_large3.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small4.jpeg", "image":"img/vizualizace/loznice/loznice_large4.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small5.jpeg", "image":"img/vizualizace/loznice/loznice_large5.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small6.jpeg", "image":"img/vizualizace/loznice/loznice_large6.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_1.jpg", "image":"img/vizualizace/loznice/loznice_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_2.jpg", "image":"img/vizualizace/loznice/loznice_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_3.jpg", "image":"img/vizualizace/loznice/loznice_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_4.jpg", "image":"img/vizualizace/loznice/loznice_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_5.jpg", "image":"img/vizualizace/loznice/loznice_large_5.jpg" },
+      { "thumbnail":"img/vizualizace/loznice/loznice_small_6.jpg", "image":"img/vizualizace/loznice/loznice_large_6.jpg" }
+    ],
+    "koupelny":[
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small1.jpeg", "image":"img/vizualizace/koupelny/koupelny_large1.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small2.jpeg", "image":"img/vizualizace/koupelny/koupelny_large2.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small3.jpeg", "image":"img/vizualizace/koupelny/koupelny_large3.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small4.jpeg", "image":"img/vizualizace/koupelny/koupelny_large4.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small5.jpeg", "image":"img/vizualizace/koupelny/koupelny_large5.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small6.jpeg", "image":"img/vizualizace/koupelny/koupelny_large6.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small7.jpeg", "image":"img/vizualizace/koupelny/koupelny_large7.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small8.jpeg", "image":"img/vizualizace/koupelny/koupelny_large8.jpg" },
+      { "thumbnail":"img/vizualizace/koupelny/koupelny_small9.jpeg", "image":"img/vizualizace/koupelny/koupelny_large9.jpg" }
+    ],
+    "wellness":[
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_1.jpg", "image":"img/vizualizace/wellness/wellness_large_1.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small1.jpeg", "image":"img/vizualizace/wellness/wellness_large1.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small2.jpeg", "image":"img/vizualizace/wellness/wellness_large2.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small3.jpeg", "image":"img/vizualizace/wellness/wellness_large3.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small4.jpeg", "image":"img/vizualizace/wellness/wellness_large4.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small5.jpeg", "image":"img/vizualizace/wellness/wellness_large5.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small6.jpeg", "image":"img/vizualizace/wellness/wellness_large6.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_2.jpg", "image":"img/vizualizace/wellness/wellness_large_2.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_3.jpg", "image":"img/vizualizace/wellness/wellness_large_3.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_4.jpg", "image":"img/vizualizace/wellness/wellness_large_4.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_5.jpg", "image":"img/vizualizace/wellness/wellness_large_5.jpg" },
+      { "thumbnail":"img/vizualizace/wellness/wellness_small_6.jpg", "image":"img/vizualizace/wellness/wellness_large_6.jpg" }
+    ]
+
+  }
+
+
+  

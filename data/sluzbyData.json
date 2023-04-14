@@ -1,0 +1,53 @@
+
+{
+  "triNavrh":[
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small1.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large1.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small2.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large2.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small3.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large3.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small4.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large4.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small5.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large5.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small6.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large6.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small7.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large7.jpg" },
+    { "thumbnail":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_small8.jpg", "image":"img/nase-sluzby/3d-navrhy/3d_navrhy_dispozic_large8.jpg" }
+  ],
+  "dvaNavrh":[
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small1.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large1.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small2.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large2.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small3.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large3.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small4.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large4.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small5.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large5.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small6.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large6.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small7.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large7.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small8.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large8.jpg" },
+    { "thumbnail":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_small9.jpg", "image":"img/nase-sluzby/2d-navrhy/2d_navrhy_dispozic_large9.jpg" }
+  ],
+  "homestaging":[
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small1.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large1.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small2.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large2.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small3.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large3.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small4.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large4.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small5.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large5.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small6.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large6.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small7.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large7.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small8.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large8.jpeg" },
+    { "thumbnail":"img/nase-sluzby/homestaging/homestaging_small9.jpeg", "image":"img/nase-sluzby/homestaging/homestaging_large9.jpeg" }
+  ],
+  "konzultace":[
+    { "thumbnail":"img/nase-sluzby/konzultace/konzultace_small_1.jpg", "image":"img/nase-sluzby/konzultace/konzultace_large_1.jpeg" },
+    { "thumbnail":"img/nase-sluzby/konzultace/konzultace_small_2.jpg", "image":"img/nase-sluzby/konzultace/konzultace_large_2.jpeg" },
+    { "thumbnail":"img/nase-sluzby/konzultace/konzultace_small_3.jpg", "image":"img/nase-sluzby/konzultace/konzultace_large_3.jpeg" },
+    { "thumbnail":"img/nase-sluzby/konzultace/konzultace_small_4.jpg", "image":"img/nase-sluzby/konzultace/konzultace_large_4.jpeg" },
+    { "thumbnail":"img/nase-sluzby/konzultace/konzultace_small_5.jpg", "image":"img/nase-sluzby/konzultace/konzultace_large_5.jpeg" }
+  ],
+  "realizace":[
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small1.jpg", "image":"img/nase-sluzby/realizace/realizace_large1.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small2.jpg", "image":"img/nase-sluzby/realizace/realizace_large2.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small3.jpg", "image":"img/nase-sluzby/realizace/realizace_large3.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small4.jpg", "image":"img/nase-sluzby/realizace/realizace_large4.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small5.jpg", "image":"img/nase-sluzby/realizace/realizace_large5.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small6.jpg", "image":"img/nase-sluzby/realizace/realizace_large6.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small7.jpg", "image":"img/nase-sluzby/realizace/realizace_large7.jpg" },
+    { "thumbnail":"img/nase-sluzby/realizace/realizace_small8.jpg", "image":"img/nase-sluzby/realizace/realizace_large8.jpg" }
+  ]
+
+}

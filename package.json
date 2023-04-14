@@ -1,0 +1,28 @@
+{
+  "name": "lenka-design-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@next/font": "13.3.0",
+    "bootstrap": "^5.2.3",
+    "emailjs": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "lightgallery": "^2.7.1",
+    "next": "13.3.0",
+    "next-sanity": "^4.1.7",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.3",
+    "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2",
+    "sass": "^1.62.0"
+  }
+}

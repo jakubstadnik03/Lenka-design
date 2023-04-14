@@ -1,0 +1,31 @@
+
+{
+  
+  "businessCard":[
+    { "thumbnail":"img/web/business_card.jpg", "image":"img/web/business_card.jpg" },
+    { "thumbnail":"img/web/business_card2.jpg", "image":"img/web/business_card2.jpg" },
+    { "thumbnail":"img/web/business_card3.jpg", "image":"img/web/business_card3.jpg" },
+    { "thumbnail":"img/web/business_card4.jpg", "image":"img/web/business_card4.jpg" },
+    { "thumbnail":"img/web/business_card5.jpg", "image":"img/web/business_card5.jpg" }
+   
+
+  ],
+  "logo":[
+    { "thumbnail":"img/web/logo1.png", "image":"img/web/logo1.png" },
+    { "thumbnail":"img/web/logo2.png", "image":"img/web/logo2.png" },
+    { "thumbnail":"img/web/logo3.png", "image":"img/web/logo3.png" },
+    { "thumbnail":"img/web/logo4.png", "image":"img/web/logo4.png" }
+   
+
+  ],
+  "plakat":[
+    { "thumbnail":"img/web/plakat1.png", "image":"img/web/plakat1.png" }
+  ],
+  "web":[
+    { "thumbnail":"img/web/laptop_mockup1.png", "image":"https://ikurzysiti.cz/" },
+    { "thumbnail":"img/web/laptop_mockup2.png", "image":"https://lenkadesign.cz" },
+    { "thumbnail":"img/web/laptop_mockup3.png", "image":"https://truhlarstvi-hajlek.vercel.app/index.html" }
+  ]
+ 
+
+}

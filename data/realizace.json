@@ -1,0 +1,149 @@
+
+{
+    "nav":[
+        {"link": "#komercni_projekty", "text": "Komerční projekty", "img": "img/realizace/main/komercni_projekty_small_main.jpeg"},
+        {"link": "#maly_byt", "text": "Malý byt", "img": "img/realizace/main/maly_byt_small_main.jpeg"},
+        {"link": "#cely_dum", "text": "Celý dům", "img": "img/realizace/main/cely_dum_small_main.jpeg"},
+        {"link": "#homestaging", "text": "Homestaging", "img": "img/realizace/main/homestaging_small_main.jpeg"},
+        {"link": "#kuchyne", "text": "Kuchyně", "img": "img/realizace/main/kuchyne_small_main.jpeg"},
+        {"link": "#obyvaci_pokoje", "text": "Obývací pokoje", "img": "img/realizace/main/obyvaci_pokoje_small_main.jpeg"},
+        {"link": "#detske_pokoje", "text": "Dětské pokoje", "img": "img/realizace/main/detske_pokoje_small_main.jpeg"},
+        {"link": "#loznice", "text": "Ložnice", "img": "img/realizace/main/loznice_small_main.jpeg"},
+        {"link": "#koupelny", "text": "Koupelny", "img": "img/realizace/main/koupelny_small_main.jpeg"},
+        {"link": "#wellness", "text": "Wellness", "img": "img/realizace/main/wellness_small_main.jpeg"},
+        {"link": "#chodby", "text": "Chodby", "img": "img/realizace/main/chodby_small_main.jpeg"},
+        {"link": "#nabytek_na_miru", "text": "Nábytek na míru", "img": "img/realizace/main/nabytek_na_miru_small_main.jpeg"}
+    ],
+    "komercniProjekty":[
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small1.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large1.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small2.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large2.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small3.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large3.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small4.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large4.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small5.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large5.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small6.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large6.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small7.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large7.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small8.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large8.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small9.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large9.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small10.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large10.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small11.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large11.jpeg" }
+    ],
+    "malyByt":[
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small1.jpeg", "image":"img/realizace/maly_byt/maly_byt_large1.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small2.jpeg", "image":"img/realizace/maly_byt/maly_byt_large2.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small3.jpeg", "image":"img/realizace/maly_byt/maly_byt_large3.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small4.jpeg", "image":"img/realizace/maly_byt/maly_byt_large4.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small5.jpeg", "image":"img/realizace/maly_byt/maly_byt_large5.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small6.jpeg", "image":"img/realizace/maly_byt/maly_byt_large6.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small7.jpeg", "image":"img/realizace/maly_byt/maly_byt_large7.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small8.jpeg", "image":"img/realizace/maly_byt/maly_byt_large8.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small9.jpeg", "image":"img/realizace/maly_byt/maly_byt_large9.jpeg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small10.jpeg", "image":"img/realizace/maly_byt/maly_byt_large10.jepg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small11.jpeg", "image":"img/realizace/maly_byt/maly_byt_large11.jepg" },
+      { "thumbnail":"img/realizace/maly_byt/maly_byt_small12.jpeg", "image":"img/realizace/maly_byt/maly_byt_large12.jepg" }
+
+    ],
+    "celyDum":[
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small1.jpeg", "image":"img/realizace/cely_dum/cely_dum_large1.jpeg" },
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small2.jpeg", "image":"img/realizace/cely_dum/cely_dum_large2.jpeg" },
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small3.jpeg", "image":"img/realizace/cely_dum/cely_dum_large3.jpeg" },
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small4.jpeg", "image":"img/realizace/cely_dum/cely_dum_large4.jpeg" },
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small5.jpeg", "image":"img/realizace/cely_dum/cely_dum_large5.jpeg" },
+      { "thumbnail":"img/realizace/cely_dum/cely_dum_small6.jpeg", "image":"img/realizace/cely_dum/cely_dum_large6.jpeg" }
+    ],
+    "homestaging":[
+      { "thumbnail":"img/realizace/homestaging/homestaging_small1.jpeg", "image":"img/realizace/homestaging/homestaging_large1.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small2.jpeg", "image":"img/realizace/homestaging/homestaging_large2.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small3.jpeg", "image":"img/realizace/homestaging/homestaging_large3.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small4.jpeg", "image":"img/realizace/homestaging/homestaging_large4.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small5.jpeg", "image":"img/realizace/homestaging/homestaging_large5.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small6.jpeg", "image":"img/realizace/homestaging/homestaging_large6.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small7.jpeg", "image":"img/realizace/homestaging/homestaging_large7.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small8.jpeg", "image":"img/realizace/homestaging/homestaging_large8.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small9.jpeg", "image":"img/realizace/homestaging/homestaging_large9.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small10.jpeg", "image":"img/realizace/homestaging/homestaging_large10.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small11.jpeg", "image":"img/realizace/homestaging/homestaging_large11.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small12.jpeg", "image":"img/realizace/homestaging/homestaging_large12.jpeg" }
+    ],
+    "kuchyne":[
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small1.jpeg", "image":"img/realizace/kuchyne/kuchyne_large1.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small2.jpeg", "image":"img/realizace/kuchyne/kuchyne_large2.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small3.jpeg", "image":"img/realizace/kuchyne/kuchyne_large3.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small4.jpeg", "image":"img/realizace/kuchyne/kuchyne_large4.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small5.jpeg", "image":"img/realizace/kuchyne/kuchyne_large5.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small6.jpeg", "image":"img/realizace/kuchyne/kuchyne_large6.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small7.jpeg", "image":"img/realizace/kuchyne/kuchyne_large7.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small8.jpeg", "image":"img/realizace/kuchyne/kuchyne_large8.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small9.jpeg", "image":"img/realizace/kuchyne/kuchyne_large9.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne_small10.jpeg", "image":"img/realizace/kuchyne/kuchyne_large10.jpeg" }
+    ],
+    "obyvaciPokoje":[
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small1.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large1.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small2.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large2.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small3.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large3.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small4.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large4.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small5.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large5.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small6.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large6.jpeg" }
+    ],
+    "detskePokoje":[
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small1.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large1.jpeg" },
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small2.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large2.jpeg" },
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small3.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large3.jpeg" },
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small4.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large4.jpeg" },
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small5.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large5.jpeg" },
+      { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small6.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large6.jpeg" }
+    ],
+    "loznice":[
+      { "thumbnail":"img/realizace/loznice/loznice_small1.jpeg", "image":"img/realizace/loznice/loznice_large1.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small2.jpeg", "image":"img/realizace/loznice/loznice_large2.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small3.jpeg", "image":"img/realizace/loznice/loznice_large3.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small4.jpeg", "image":"img/realizace/loznice/loznice_large4.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small5.jpeg", "image":"img/realizace/loznice/loznice_large5.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small6.jpeg", "image":"img/realizace/loznice/loznice_large6.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small7.jpeg", "image":"img/realizace/loznice/loznice_large7.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice_small8.jpeg", "image":"img/realizace/loznice/loznice_large8.jpeg" }
+    ],
+    "koupelny":[
+      { "thumbnail":"img/realizace/koupelny/koupelny_small1.jpeg", "image":"img/realizace/koupelny/koupelny_large1.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small2.jpeg", "image":"img/realizace/koupelny/koupelny_large2.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small3.jpeg", "image":"img/realizace/koupelny/koupelny_large3.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small4.jpeg", "image":"img/realizace/koupelny/koupelny_large4.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small5.jpeg", "image":"img/realizace/koupelny/koupelny_large5.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small6.jpeg", "image":"img/realizace/koupelny/koupelny_large6.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small7.jpeg", "image":"img/realizace/koupelny/koupelny_large7.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small8.jpeg", "image":"img/realizace/koupelny/koupelny_large8.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small9.jpeg", "image":"img/realizace/koupelny/koupelny_large9.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small10.jpeg", "image":"img/realizace/koupelny/koupelny_large10.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelny_small11.jpeg", "image":"img/realizace/koupelny/koupelny_large11.jpeg" }
+    ],
+    "wellness":[
+      { "thumbnail":"img/realizace/wellness/wellness_small1.jpeg", "image":"img/realizace/wellness/wellness_large1.jpeg" },
+      { "thumbnail":"img/realizace/wellness/wellness_small2.jpeg", "image":"img/realizace/wellness/wellness_large2.jpeg" },
+      { "thumbnail":"img/realizace/wellness/wellness_small3.jpeg", "image":"img/realizace/wellness/wellness_large3.jpeg" },
+      { "thumbnail":"img/realizace/wellness/wellness_small4.jpeg", "image":"img/realizace/wellness/wellness_large4.jpeg" },
+      { "thumbnail":"img/realizace/wellness/wellness_small5.jpeg", "image":"img/realizace/wellness/wellness_large5.jpeg" },
+      { "thumbnail":"img/realizace/wellness/wellness_small6.jpeg", "image":"img/realizace/wellness/wellness_large6.jpeg" }
+    ],
+    "chodby":[
+      { "thumbnail":"img/realizace/chodby/chodby_small1.jpeg", "image":"img/realizace/chodby/chodby_large1.jpeg" },
+      { "thumbnail":"img/realizace/chodby/chodby_small2.jpeg", "image":"img/realizace/chodby/chodby_large2.jpeg" },
+      { "thumbnail":"img/realizace/chodby/chodby_small3.jpeg", "image":"img/realizace/chodby/chodby_large3.jpeg" },
+      { "thumbnail":"img/realizace/chodby/chodby_small4.jpeg", "image":"img/realizace/chodby/chodby_large4.jpeg" },
+      { "thumbnail":"img/realizace/chodby/chodby_small5.jpeg", "image":"img/realizace/chodby/chodby_large5.jpeg" },
+      { "thumbnail":"img/realizace/chodby/chodby_small6.jpeg", "image":"img/realizace/chodby/chodby_large6.jpeg" }
+    ],
+    "nabytekNaMiru":[
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small1.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large1.jpeg" },
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small2.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large2.jpeg" },
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small3.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large3.jpeg" },
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small4.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large4.jpeg" },
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small5.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large5.jpeg" },
+      { "thumbnail":"img/realizace/nabytek_na_miru/nabytek_na_miru_small6.jpeg", "image":"img/realizace/nabytek_na_miru/nabytek_na_miru_large6.jpeg" }
+
+    ]
+
+}
+
+  
+
+
+  
