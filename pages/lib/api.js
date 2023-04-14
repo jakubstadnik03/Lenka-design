@@ -1,6 +1,13 @@
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
+import { getAllPosts } from "./lib/api";
+
+export default async function handler(req, res) {
+  const posts = await getAllPosts(["slug", "title", "date", "excerpt"]);
+
+  res.status(200).json({ posts });
+}
 
 const postsDirectory = join(process.cwd(), "_posts");
 

@@ -2,8 +2,20 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/bytovy-interier": "pages/bytovy-interier.js",
+  "/homestaging": "pages/homestaging.js",
   "/": "pages/index.js",
-  "/realizace": "pages/realizace.js",
+  "/cenik": "pages/cenik.js",
+  "/kontakt": "pages/kontakt.js",
+  "/komercni-interier": "pages/komercni-interier.js",
+  "/konzultace": "pages/konzultace.js",
   "/nase-sluzby": "pages/nase-sluzby.js",
-  "/bytovy-interier": "pages/bytovy-interier.js"
+  "/lib/markdownToHtml": "pages/lib/markdownToHtml.js",
+  "/lib/api": "pages/lib/api.js",
+  "/reference": "pages/reference.js",
+  "/realizace": "pages/realizace.js",
+  "/vizualizace": "pages/vizualizace.js",
+  "/web-grafika": "pages/web-grafika.js",
+  "/blog": "pages/blog.js",
+  "/posts/[slug]": "pages/posts/[slug].js"
 }
