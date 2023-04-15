@@ -24,7 +24,10 @@ const Footer = () => {
               >
                 <img src="svg/instagram.svg" alt="" />
               </a>
-              <a href="" className="me-4 link-secondary">
+              <a
+                href="https://cz.linkedin.com/in/lenka-stádn%C3%ADková"
+                className="me-4 link-secondary"
+              >
                 <img src="svg/linkedin.svg" style={{ width: "28px" }} alt="" />
               </a>
             </div>
