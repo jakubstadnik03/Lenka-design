@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { getPostBySlug, getAllPosts } from "../api/api";
 import Head from "next/head";
-import markdownToHtml from "../lib/markdownToHtml";
+
 import CoverImage from "../../components/cover-image";
+
+import { remark } from "remark";
+import html from "remark-html";
 
 export default function Post({ post, morePosts, preview }) {
   return (

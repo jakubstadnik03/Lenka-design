@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function sluzbyNav({ link, title, img, id }) {
   return (
     <a href={`${link}`}>

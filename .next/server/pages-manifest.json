@@ -1,7 +1,22 @@
 {
+  "/api/api": "pages/api/api.js",
+  "/api/posts": "pages/api/posts.js",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/posts/[slug]": "pages/posts/[slug].js"
+  "/bytovy-interier": "pages/bytovy-interier.html",
+  "/cenik": "pages/cenik.html",
+  "/homestaging": "pages/homestaging.html",
+  "/komercni-interier": "pages/komercni-interier.html",
+  "/kontakt": "pages/kontakt.html",
+  "/konzultace": "pages/konzultace.html",
+  "/nase-sluzby": "pages/nase-sluzby.html",
+  "/realizace": "pages/realizace.html",
+  "/reference": "pages/reference.html",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/blog": "pages/blog.js",
+  "/vizualizace": "pages/vizualizace.html",
+  "/web-grafika": "pages/web-grafika.html",
+  "/posts/[slug]": "pages/posts/[slug].js",
+  "/404": "pages/404.html"
 }
