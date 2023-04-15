@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/komercni-interier": "pages/komercni-interier.js",
   "/bytovy-interier": "pages/bytovy-interier.js",
-  "/homestaging": "pages/homestaging.js",
-  "/konzultace": "pages/konzultace.js"
+  "/komercni-interier": "pages/komercni-interier.js"
 }

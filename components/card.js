@@ -13,11 +13,11 @@ function BasicExample({ title, desc, img, link }) {
       <Card.Body className="d-flex flex-column justify-content-between">
         <Card.Title>{title}</Card.Title>
         <Card.Text>{desc}</Card.Text>
-        <Button variant="primary" style={{ width: "80px" }}>
-          <Link href={link} style={{ color: "white" }}>
+        <Link href={link} style={{ color: "white" }}>
+          <Button variant="primary" style={{ width: "80px" }}>
             Otevřít
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       </Card.Body>
     </Card>
   );

@@ -35,20 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/bytovy-interier.js"
     ],
-    "/homestaging": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/homestaging.js"
-    ],
     "/komercni-interier": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/komercni-interier.js"
-    ],
-    "/konzultace": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/konzultace.js"
     ]
   },
   "ampFirstPages": []
