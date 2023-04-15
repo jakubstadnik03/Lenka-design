@@ -1,7 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Link from "next/link";
 
-function BasicExample({ title, desc, img }) {
+function BasicExample({ title, desc, img, link }) {
   return (
     <Card
       style={{ width: "18rem" }}
@@ -13,7 +14,9 @@ function BasicExample({ title, desc, img }) {
         <Card.Title>{title}</Card.Title>
         <Card.Text>{desc}</Card.Text>
         <Button variant="primary" style={{ width: "80px" }}>
-          Otevřít
+          <Link href={link} style={{ color: "white" }}>
+            Otevřít
+          </Link>
         </Button>
       </Card.Body>
     </Card>
