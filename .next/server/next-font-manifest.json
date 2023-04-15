@@ -1,10 +1,5 @@
 {
-  "pages": {
-    "/nase-sluzby": [],
-    "/realizace": [],
-    "/vizualizace": [],
-    "/web-grafika": []
-  },
+  "pages": {},
   "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false
