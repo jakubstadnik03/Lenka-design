@@ -5,13 +5,6 @@ exports.id = 922;
 exports.ids = [922,50];
 exports.modules = {
 
-/***/ 7327:
-/***/ (() => {
-
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/lenka.696d90fd.jpg","height":258,"width":258,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAAAgEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAoF//xAAbEAACAwADAAAAAAAAAAAAAAACAwEEBgASMv/aAAgBAQABPwBWmB+gq23BIeA6isoHn//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAgEBPwCxd//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAEDAQE/ABL/2Q==","blurWidth":8,"blurHeight":8});
-
-/***/ }),
-
 /***/ 3411:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -50,16 +43,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3885);
-/* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_lib_api__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _api_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9602);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(968);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3411);
 /* harmony import */ var _components_cover_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2129);
-/* harmony import */ var _public_img_lenka_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7327);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__]);
 _lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
 
 
 
@@ -142,31 +132,29 @@ function Post({ post , morePosts , preview  }) {
     });
 }
 async function getStaticProps({ params  }) {
-    const post = (0,_lib_api__WEBPACK_IMPORTED_MODULE_2__.getPostBySlug)(params.slug, [
-        "title",
-        "date",
-        "slug",
-        "author",
-        "content",
-        "ogImage",
-        "coverImage"
-    ]);
-    const content = await (0,_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__["default"])(post.content || "");
+    // console.log(params.slug);
+    if (!params || !params.slug) {
+        return {
+            notFound: true
+        };
+    }
+    const post = (0,_api_api__WEBPACK_IMPORTED_MODULE_2__/* .getPostBySlug */ .z)(params.slug);
     return {
         props: {
             post: {
-                ...post,
-                content
+                ...post
             }
         }
     };
 }
 async function getStaticPaths() {
-    const posts = (0,_lib_api__WEBPACK_IMPORTED_MODULE_2__.getAllPosts)([
+    const posts = (0,_api_api__WEBPACK_IMPORTED_MODULE_2__/* .getAllPosts */ .B)([
         "slug"
     ]);
+    // console.log("Posts:", posts);
     return {
         paths: posts.map((post)=>{
+            // console.log("Slug:", post.slug);
             return {
                 params: {
                     slug: post.slug
@@ -179,6 +167,13 @@ async function getStaticPaths() {
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 8076:
+/***/ ((module) => {
+
+module.exports = require("gray-matter");
 
 /***/ }),
 
@@ -341,6 +336,20 @@ module.exports = import("remark");;
 
 module.exports = import("remark-html");;
 
+/***/ }),
+
+/***/ 7147:
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 1017:
+/***/ ((module) => {
+
+module.exports = require("path");
+
 /***/ })
 
 };
@@ -350,7 +359,7 @@ module.exports = import("remark-html");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,454], () => (__webpack_exec__(2845)));
+var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,242], () => (__webpack_exec__(2845)));
 module.exports = __webpack_exports__;
 
 })();

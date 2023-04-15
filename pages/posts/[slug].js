@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { getPostBySlug, getAllPosts } from "../lib/api";
+import { getPostBySlug, getAllPosts } from "../api/api";
 import Head from "next/head";
 import markdownToHtml from "../lib/markdownToHtml";
 import CoverImage from "../../components/cover-image";
-import lenka from "../../public/img/lenka.jpg";
 
 export default function Post({ post, morePosts, preview }) {
   return (
@@ -68,22 +67,19 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, [
-    "title",
-    "date",
-    "slug",
-    "author",
-    "content",
-    "ogImage",
-    "coverImage",
-  ]);
-  const content = await markdownToHtml(post.content || "");
+  // console.log(params.slug);
+  if (!params || !params.slug) {
+    return {
+      notFound: true,
+    };
+  }
+
+  const post = getPostBySlug(params.slug);
 
   return {
     props: {
       post: {
         ...post,
-        content,
       },
     },
   };
@@ -92,8 +88,11 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const posts = getAllPosts(["slug"]);
 
+  // console.log("Posts:", posts);
+
   return {
     paths: posts.map((post) => {
+      // console.log("Slug:", post.slug);
       return {
         params: {
           slug: post.slug,

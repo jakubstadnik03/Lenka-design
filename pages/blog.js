@@ -1,10 +1,11 @@
 import MoreStories from "../components/more-stories";
-import { getAllPosts } from "./lib/api";
+import { getAllPosts } from "./api/api";
 import Head from "next/head";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
+  console.log(allPosts);
   return (
     <>
       <Head>
@@ -22,14 +23,18 @@ export default function Index({ allPosts }) {
 }
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
+  const allPosts = JSON.parse(
+    JSON.stringify(
+      await getAllPosts([
+        "title",
+        "date",
+        "slug",
+        "author",
+        "coverImage",
+        "excerpt",
+      ])
+    )
+  );
 
   return {
     props: { allPosts },

@@ -92,8 +92,8 @@ const MoreStories = ({ posts  })=>{
 };
 /* harmony default export */ const more_stories = (MoreStories);
 
-// EXTERNAL MODULE: ./pages/lib/api.js
-var api = __webpack_require__(3885);
+// EXTERNAL MODULE: ./pages/api/api.js
+var api = __webpack_require__(9602);
 // EXTERNAL MODULE: external "next/head"
 var head_ = __webpack_require__(968);
 var head_default = /*#__PURE__*/__webpack_require__.n(head_);
@@ -105,6 +105,7 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 function Index({ allPosts  }) {
     const heroPost = allPosts[0];
     const morePosts = allPosts.slice(1);
+    console.log(allPosts);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
@@ -127,14 +128,14 @@ function Index({ allPosts  }) {
     });
 }
 const getStaticProps = async ()=>{
-    const allPosts = (0,api.getAllPosts)([
+    const allPosts = JSON.parse(JSON.stringify(await (0,api/* getAllPosts */.B)([
         "title",
         "date",
         "slug",
         "author",
         "coverImage",
         "excerpt"
-    ]);
+    ])));
     return {
         props: {
             allPosts
@@ -142,6 +143,13 @@ const getStaticProps = async ()=>{
     };
 };
 
+
+/***/ }),
+
+/***/ 8076:
+/***/ ((module) => {
+
+module.exports = require("gray-matter");
 
 /***/ }),
 
@@ -290,6 +298,20 @@ module.exports = require("react");
 
 module.exports = require("react/jsx-runtime");
 
+/***/ }),
+
+/***/ 7147:
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 1017:
+/***/ ((module) => {
+
+module.exports = require("path");
+
 /***/ })
 
 };
@@ -299,7 +321,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,454], () => (__webpack_exec__(2788)));
+var __webpack_exports__ = __webpack_require__.X(0, [664,636,675,242], () => (__webpack_exec__(2788)));
 module.exports = __webpack_exports__;
 
 })();
