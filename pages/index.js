@@ -33,7 +33,7 @@ export default function Home() {
               </strong>
             </p>
           </div>
-          <div className="d-flex justify-content-xl-center overflow-auto m-auto ">
+          <div className="d-flex overflow-auto m-auto max-width-small">
             <Card
               img="img/sluzby/navrhy_bytovych_interieru_small.jpg"
               title="Návrhy bytových interiérů"
@@ -50,6 +50,12 @@ export default function Home() {
               img="img/sluzby/homestaging_small.jpg"
               title="Homestaging"
               link="/homestaging"
+              desc="Připravte svůj domov k prodeji s naším homestagingem!"
+            />
+            <Card
+              img="img/prianera//prianera-thumb.jpg"
+              title="Exkluzivní nábytek Prianera"
+              link="/exkluzivni-nabidky"
               desc="Připravte svůj domov k prodeji s naším homestagingem!"
             />
             <Card
