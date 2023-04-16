@@ -9,7 +9,7 @@ const exkluzivniNabidky = () => {
           <Carousel.Item>
             <img
               className="d-block w-100 object-fit-cover"
-              src="img/prianera/prianera1.jpeg"
+              src="img/prianera/prianera2.jpeg"
               alt="First slide"
               style={{ maxHeight: "calc(100vh - 90px)" }}
             />
@@ -17,15 +17,15 @@ const exkluzivniNabidky = () => {
           <Carousel.Item>
             <img
               className="d-block w-100 object-fit-cover"
-              src="img/prianera/prianera2.jpeg"
+              src="img/prianera/prianera3.jpeg"
               alt="Second slide"
               style={{ maxHeight: "calc(100vh - 90px)" }}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 object-fit-cover"
-              src="img/prianera/prianera3.jpeg"
+              className="d-block w-100 object-fit-contain"
+              src="img/prianera/prianera4.jpeg"
               alt="Third slide"
               style={{ maxHeight: "calc(100vh - 90px)" }}
             />
@@ -95,7 +95,7 @@ const exkluzivniNabidky = () => {
         <Link href="img/prianera/katalog.pdf">
           {" "}
           <img
-            src="img/prianera/katalog.png"
+            src="img/prianera/prianera1.jpeg"
             style={{ width: "250px" }}
             alt="prianera"
           />
