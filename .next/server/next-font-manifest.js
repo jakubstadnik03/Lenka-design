@@ -1,5 +1,7 @@
 self.__NEXT_FONT_MANIFEST={
-  "pages": {},
+  "pages": {
+    "/exkluzivni-nabidky": []
+  },
   "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false
