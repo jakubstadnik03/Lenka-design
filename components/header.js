@@ -38,6 +38,7 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/exkluzivni-nabidky">Exkluzivní nabídky</Nav.Link>
             <Nav.Link href="/reference">Reference</Nav.Link>
             <Nav.Link href="/cenik">Ceník</Nav.Link>
             <Nav.Link href="/kontakt">

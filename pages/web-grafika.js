@@ -61,7 +61,7 @@ export default function Realizace() {
             </p>
           </div>
           <div className="slide-container slide-small">
-            <Carousel style={{ width: "600px" }}>
+            <Carousel style={{ maxWidth: "600px" }}>
               {slideImage.map((slideImage, index) => (
                 <Carousel.Item>
                   <img

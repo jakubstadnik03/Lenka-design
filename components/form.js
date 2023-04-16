@@ -81,7 +81,11 @@ export default function ContactForm() {
             />
           </div>
           <div>
-            <button className="mybutton" type="submit" value="send">
+            <button
+              className=" btn btn-outline-primary mt-2"
+              type="submit"
+              value="send"
+            >
               Odeslat
             </button>
           </div>

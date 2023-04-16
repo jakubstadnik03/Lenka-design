@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/bytovy-interier": "pages/bytovy-interier.js",
-  "/komercni-interier": "pages/komercni-interier.js"
+  "/exkluzivni-nabidky": "pages/exkluzivni-nabidky.js"
 }
