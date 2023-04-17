@@ -53,7 +53,7 @@ export default function Home() {
               desc="Připravte svůj domov k prodeji s naším homestagingem!"
             />
             <Card
-              img="img/prianera//prianera-thumb.jpg"
+              img="img/prianera/prianera-thumb.jpg"
               title="Exkluzivní nábytek Prianera"
               link="/exkluzivni-nabidky"
               desc="Připravte svůj domov k prodeji s naším homestagingem!"

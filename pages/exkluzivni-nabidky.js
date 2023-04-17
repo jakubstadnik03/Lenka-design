@@ -189,9 +189,12 @@ const exkluzivniNabidky = () => {
           </Link>
         </Carousel.Caption>
       </div>
-      <div className="max-width d-flex mt-4" style={{ maxWidth: "1000px" }}>
+      <div
+        className="max-width d-flex mt-4 flex-column flex-md-row"
+        style={{ maxWidth: "1000px" }}
+      >
         <div>
-          <h2>Kvalitní italský nábytek možno vyzkoušet!</h2>
+          <h2 id="zjistit-vice">Kvalitní italský nábytek možno vyzkoušet!</h2>
           <p>
             Výrobky firmy Prianera jsou ručně vyrobené v dokonalé kvalitě, dle
             návrhů italských designérů. Mají nezaměnitelné italské know-how.
