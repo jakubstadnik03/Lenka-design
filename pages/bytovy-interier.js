@@ -1,5 +1,63 @@
 import Head from "next/head";
+import LightGallery from "lightgallery/react";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 function BytInterier() {
+  const images = [
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large4.webp",
+      thumbnail: "img/durychova/durychova-large4.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large5.webp",
+      thumbnail: "img/durychova/durychova-large5.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large6.webp",
+      thumbnail: "img/durychova/durychova-large6.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large7.webp",
+      thumbnail: "img/durychova/durychova-large7.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large8.webp",
+      thumbnail: "img/durychova/durychova-large8.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large9.webp",
+      thumbnail: "img/durychova/durychova-large9.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large10.webp",
+      thumbnail: "img/durychova/durychova-large10.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large11.webp",
+      thumbnail: "img/durychova/durychova-large11.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large1.webp",
+      thumbnail: "img/durychova/durychova-large1.webp",
+    },
+    {
+      alt: "Design bytového interiéru Liberec",
+      image: "img/durychova/durychova-large0.webp",
+      thumbnail: "img/durychova/durychova-large0.webp",
+    },
+  ];
   return (
     <>
       <Head>
@@ -55,6 +113,20 @@ function BytInterier() {
           případně doporučení realizační firmy.
         </p>
       </div>
+      <section className="max-width">
+        <h2>Fotogalerie realizace bytových interiérů</h2>
+        <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+          {images.map((item, index) => (
+            <a href={item.image} key={index}>
+              <img
+                src={item.thumbnail}
+                className="gallery-img"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </LightGallery>
+      </section>
     </>
   );
 }

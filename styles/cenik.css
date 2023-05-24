@@ -15,7 +15,6 @@ ul {
 .price ul li {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 .price li {
     min-height: 44px;

@@ -10,7 +10,15 @@ const HeroSection = () => {
               className="d-block w-100 object-fit-cover"
               src="img/uvod/uvod1.webp"
               alt="First slide"
-              style={{ maxHeight: "calc(100vh - 90px)" }}
+              style={{ maxHeight: "calc(100vh - 90px)", objectFit: "cover" }}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 object-fit-cover"
+              src="img/durychova/durychova-large6.webp"
+              alt="First slide"
+              style={{ maxHeight: "calc(100vh - 90px)", objectFit: "cover" }}
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -18,7 +26,15 @@ const HeroSection = () => {
               className="d-block w-100 object-fit-cover"
               src="img/uvod/uvod2.webp"
               alt="Second slide"
-              style={{ maxHeight: "calc(100vh - 90px)" }}
+              style={{ maxHeight: "calc(100vh - 90px)", objectFit: "cover" }}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 object-fit-cover"
+              src="img/uvod/uvod4.webp"
+              alt="Second slide"
+              style={{ maxHeight: "calc(100vh - 90px)", objectFit: "cover" }}
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -26,7 +42,7 @@ const HeroSection = () => {
               className="d-block w-100 object-fit-cover"
               src="img/uvod/uvod3.webp"
               alt="Third slide"
-              style={{ maxHeight: "calc(100vh - 90px)" }}
+              style={{ maxHeight: "calc(100vh - 90px)", objectFit: "cover" }}
             />
           </Carousel.Item>
         </Carousel>

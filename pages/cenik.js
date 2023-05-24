@@ -11,7 +11,7 @@ export default function Cenik() {
         />
       </Head>
       <main className="cenik">
-        <div className="max-width text-block">
+        <div className="max-width-small max-width text-block">
           <h1>Ceník služeb interiérového designu</h1>
           <div>
             <p>

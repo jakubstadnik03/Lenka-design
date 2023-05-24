@@ -227,7 +227,7 @@ const exkluzivniNabidky = () => {
           />
         </Link>
       </div>
-      <section className="max-width">
+      <section className=" max-width-small">
         <h2>Fotogalerie produktů od firmy Prianera</h2>
         <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
           {images.map((item, index) => (

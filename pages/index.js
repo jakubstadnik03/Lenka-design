@@ -19,7 +19,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <section>
-          <div className="max-width uvodni_text texty ">
+          <div className="max-width uvodni_text texty max-width-small">
             <h2>Naše služby</h2>
             <p className="uvodni-text-bold">
               <strong>
@@ -44,7 +44,7 @@ export default function Home() {
               img="img/sluzby/navrhy_komercnich_interieru_small.jpg"
               title="Návrh komerčních interiérů"
               link="/komercni-interier"
-              desc="Proměňte svůj komerční prostor s našimi profesionálními návrhy interiéru!"
+              desc="Proměňte svůj komerční prostor s našimi profesionálními návrhy!"
             />
             <Card
               img="img/sluzby/homestaging_small.jpg"

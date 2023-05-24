@@ -7,7 +7,7 @@ function Kontakt() {
       <Head>
         <title>Kontakt | Lenka Design</title>
       </Head>
-      <main className="max-width">
+      <main className="max-width max-width-small">
         <h1>Kontakt</h1>
         <p>
           <strong>

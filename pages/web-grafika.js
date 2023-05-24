@@ -6,10 +6,6 @@ import webData from "../data/webData.json";
 import ImageGallery from "../components/galleryImg";
 
 export default function Realizace() {
-  // window.addEventListener("load", function (e) {
-  //   window.dispatchEvent(new Event("resize"));
-  // });
-
   const slideImage = [
     {
       url: "img/web/laptop_mockup1.png",
@@ -47,7 +43,7 @@ export default function Realizace() {
       <main className="max-width">
         <div className="herowb">
           <div className="herowb-text">
-            <h1>
+            <h1 className="fs-1">
               Profesionální návrh a design webových stránek, či jiné grafiky na
               míru
             </h1>

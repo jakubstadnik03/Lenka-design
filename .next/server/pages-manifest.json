@@ -1,8 +1,23 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/exkluzivni-nabidky": "pages/exkluzivni-nabidky.js",
-  "/realizace": "pages/realizace.js"
+  "/api/api": "pages/api/api.js",
+  "/api/posts": "pages/api/posts.js",
+  "/cenik": "pages/cenik.html",
+  "/bytovy-interier": "pages/bytovy-interier.html",
+  "/_error": "pages/_error.js",
+  "/homestaging": "pages/homestaging.html",
+  "/komercni-interier": "pages/komercni-interier.html",
+  "/": "pages/index.html",
+  "/kontakt": "pages/kontakt.html",
+  "/exkluzivni-nabidky": "pages/exkluzivni-nabidky.html",
+  "/konzultace": "pages/konzultace.html",
+  "/nase-sluzby": "pages/nase-sluzby.html",
+  "/realizace": "pages/realizace.html",
+  "/reference": "pages/reference.html",
+  "/vizualizace": "pages/vizualizace.html",
+  "/web-grafika": "pages/web-grafika.html",
+  "/blog": "pages/blog.js",
+  "/posts/[slug]": "pages/posts/[slug].js",
+  "/404": "pages/404.html"
 }
