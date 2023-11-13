@@ -104,7 +104,24 @@ a{
   background-size: contain;
 
 }
+.carousel-item-box {
+  width: 560px !important;
+  height: 375px;
+}
+.gallery-img-box{
+  width: 100%; /* nebo specifická šířka */
+  height: 260px; /* upravte dle potřeby */
+  object-fit: cover; /* zajistí, že obrázky budou krásně zapadat */
+  cursor: pointer;
+}
+.large-modal {
+  max-width: 80%;
+}
 
+.large-modal-img {
+  width: 100%;
+  height: auto; /* Umožní obrázku, aby se přizpůsobil šířce */
+}
 
 @media only screen and (min-width:920px) {
   h1 {

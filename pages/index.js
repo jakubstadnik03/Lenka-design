@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import HeroSection from "../components/hero";
 import Card from "../components/card";
+import ConsultationStudioComponent from "../components/studio-main";
+import CottageRentalComponent from "../components/chalupa-main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -66,6 +68,7 @@ export default function Home() {
             />
           </div>
         </section>
+        <ConsultationStudioComponent />
         <section className="max-width max-width-small">
           <p className="">
             Věnuji se návrhům interiérů, bytovému designu a Home stagingu již
@@ -127,6 +130,7 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <CottageRentalComponent />
       </main>
     </>
   );

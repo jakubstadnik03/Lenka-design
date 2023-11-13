@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export default function ContactForm() {
+export default function ContactForm(gdpr) {
   const form = useRef();
-
+  console.log(gdpr);
   const sendEmail = (e) => {
     e.preventDefault();
 

@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="svg/lenka-design-logo.svg"
+            src="/svg/lenka-design-logo.svg"
             width="180"
             alt="Logo Lenka Design"
           />
