@@ -172,10 +172,28 @@ html {
 display: flex;
 overflow-x: auto;
 }
+.iframe{
+  width: 400px;
+}
 @media (min-width:920px) {
   .lg-react-element{
     display: block;
     }
+}
+@media (max-width: 767px) {
+  .iframe-container iframe {
+    width: 90%;
+    height: auto; /* Adjust height as needed */
+    margin: 0 auto; /* Center the iframe */
+    display: block; /* Ensure it takes the full width */
+  }
+}
+
+@media (min-width: 768px) {
+  .iframe-container iframe {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+  }
 }
 
 

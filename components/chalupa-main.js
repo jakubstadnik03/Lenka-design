@@ -5,10 +5,10 @@ import Link from "next/link";
 const CottageRentalComponent = () => {
   return (
     <div
-      className="d-flex flex-row justify-content-center align-items-center my-5 max-width"
+      className="d-flex flex-column flex-lg-row justify-content-center align-items-center my-5 max-width"
       style={{ maxWidth: "1200px" }}
     >
-      <div className="w-50">
+      <div className="w-100 w-lg-50">
         <Carousel>
           <Carousel.Item>
             <img
@@ -40,7 +40,7 @@ const CottageRentalComponent = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className="w-50 ms-4">
+      <div className="w-100 w-lg-50 ms-lg-4">
         <h2>Chalupa Podještědka – Rozstání v Podještědí</h2>
         <p>
           Prožijte nezapomenutelný pobyt v Chalupě Podještědka, nedaleko

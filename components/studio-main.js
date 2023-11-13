@@ -5,10 +5,10 @@ import Link from "next/link";
 const ConsultationStudioComponent = () => {
   return (
     <div
-      className="d-flex flex-row justify-content-center align-items-center my-5 max-width"
+      className="d-flex flex-column flex-lg-row justify-content-center align-items-center my-5 max-width"
       style={{ maxWidth: "1200px" }}
     >
-      <div className="w-50">
+      <div className="w-100 w-lg-50">
         <Carousel>
           {/* Přidat obrázky studia do Carousel */}
           <Carousel.Item className="m-auto">
@@ -42,7 +42,7 @@ const ConsultationStudioComponent = () => {
           {/* Další obrázky */}
         </Carousel>
       </div>
-      <div className="w-50 ms-4">
+      <div className="w-100 w-lg-50 ms-lg-4">
         <h2>Moderní Studio pro Konzultace v Srdci Liberce</h2>
         <p>
           Vítejte v našem nově zrekonstruovaném studiu, které je ideální pro

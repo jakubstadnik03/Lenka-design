@@ -47,7 +47,7 @@ const ChalupaPodjestedka = () => {
   return (
     <Container>
       <Row className="my-4">
-        <Col>
+        <Col xs={12}>
           <h1>Chalupa Podještědka – Rozstání v Podještědí</h1>
           <p>
             Prožijte nezapomenutelný pobyt v Chalupě Podještědka, nedaleko
@@ -62,11 +62,11 @@ const ChalupaPodjestedka = () => {
 
       <Row>
         {images.map((img, index) => (
-          <Col md={4} key={index} className="mb-4">
+          <Col md={4} sm={6} xs={12} key={index} className="mb-4">
             <img
               src={img.small}
               className="gallery-img-box"
-              alt={`Chalupa podještědka ${index + 1}`}
+              alt={`Chalupa Podještědka ${index + 1}`}
               onClick={() => setSelectedImg(img.large)}
             />
           </Col>
@@ -85,7 +85,7 @@ const ChalupaPodjestedka = () => {
       </Modal>
 
       <Row className="my-4">
-        <Col>
+        <Col md={6} xs={12}>
           <h2>Popis ubytování</h2>
           <p>
             Naše chalupa je nově zrekonstruovaná, stylově a romanticky sladěná
@@ -101,6 +101,13 @@ const ChalupaPodjestedka = () => {
             rodinami, kteří mohou trávit čas i v přilehlém lanovém parku Horka.
             Tato oblast je také vyhledávaná turisty, cyklisty i lyžaři.
           </p>
+          <h3>Pro více informací a pronájem nás nevhejte kontaktovat</h3>
+        </Col>
+        <Col md={6} xs={12} className="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.7913431660822!2d14.974448899999999!3d50.7052565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470949cdec6217dd%3A0xae5ddf1eb8f1742a!2zQ2hhbHVwYSBQb2RqZcWhdMSbZGth!5e0!3m2!1scs!2scz!4v1699890974319!5m2!1scs!2scz"
+            loading="lazy"
+          ></iframe>
         </Col>
       </Row>
 

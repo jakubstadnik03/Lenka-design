@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 
 export default function ContactForm(gdpr) {
   const form = useRef();
-  console.log(gdpr);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -82,7 +81,7 @@ export default function ContactForm(gdpr) {
           </div>
           <div>
             <button
-              className=" btn btn-outline-primary mt-2"
+              className=" btn btn-outline-primary mt-2 pl-5 pr-5"
               type="submit"
               value="send"
             >
@@ -131,13 +130,15 @@ export default function ContactForm(gdpr) {
         </ul>
       </div>
 
-      <p className="gdpr">
-        Vaše osobní údaje (e-mail, jméno a telefon) budu zpracovávat jen za
-        účelem Vámi daným, ke kontaktování Vás z oblasti interiérového designu v
-        souladu s platnou legislativou a zásadami ochrany osobních údajů. Svůj
-        souhlas se zasíláním a zpracováním osobních údajů můžete kdykoliv
-        odvolat prostřednictvím odhlašovacího odkazu v každém emailu ode mě.
-      </p>
+      {!gdpr && (
+        <p className="gdpr">
+          Vaše osobní údaje (e-mail, jméno a telefon) budu zpracovávat jen za
+          účelem Vámi daným, ke kontaktování Vás z oblasti interiérového designu
+          v souladu s platnou legislativou a zásadami ochrany osobních údajů.
+          Svůj souhlas se zasíláním a zpracováním osobních údajů můžete kdykoliv
+          odvolat prostřednictvím odhlašovacího odkazu v každém emailu ode mě.
+        </p>
+      )}
     </div>
   );
 }

@@ -20,7 +20,6 @@ exports.modules = {
 
 function ContactForm(gdpr) {
     const form = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();
-    console.log(gdpr);
     const sendEmail = (e)=>{
         e.preventDefault();
         _emailjs_browser__WEBPACK_IMPORTED_MODULE_2___default().sendForm("service_47m0lpw", "template_m58cjss", form.current, "na8xge_55u88BuNEA").then((result)=>{
@@ -109,7 +108,7 @@ function ContactForm(gdpr) {
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                className: " btn btn-outline-primary mt-2",
+                                className: " btn btn-outline-primary mt-2 pl-5 pr-5",
                                 type: "submit",
                                 value: "send",
                                 children: "Odeslat"
@@ -200,7 +199,7 @@ function ContactForm(gdpr) {
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+            !gdpr && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: "gdpr",
                 children: "Vaše osobn\xed \xfadaje (e-mail, jm\xe9no a telefon) budu zpracov\xe1vat jen za \xfačelem V\xe1mi dan\xfdm, ke kontaktov\xe1n\xed V\xe1s z oblasti interi\xe9rov\xe9ho designu v souladu s platnou legislativou a z\xe1sadami ochrany osobn\xedch \xfadajů. Svůj souhlas se zas\xedl\xe1n\xedm a zpracov\xe1n\xedm osobn\xedch \xfadajů můžete kdykoliv odvolat prostřednictv\xedm odhlašovac\xedho odkazu v každ\xe9m emailu ode mě."
             })

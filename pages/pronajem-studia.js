@@ -78,13 +78,20 @@ const StudioPage = () => {
       </Modal>
 
       <Row className="my-4">
-        <Col>
+        <Col md={6} xs={12}>
           <h2>Detailní Popis Místností</h2>
           <p>
             Naše studio nabízí plně vybavenou konferenční místnost s moderní
             audiovizuální technikou, ideální pro prezentace a workshopy. Máme
             také útulný odpočinkový prostor pro neformální schůzky a relaxaci.
           </p>
+          <h3>Pro více informací a pronájem nás nevhejte kontaktovat</h3>
+        </Col>
+        <Col md={6} xs={12} className="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1501.0729089530064!2d15.063448162769866!3d50.77490565752958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47093777deae12ef%3A0xa98ab8b8536fdb97!2sDesignov%C3%BD%20byt%20v%20srdci%20Liberce!5e0!3m2!1scs!2scz!4v1699890535839!5m2!1scs!2scz"
+            loading="lazy"
+          ></iframe>
         </Col>
       </Row>
 
