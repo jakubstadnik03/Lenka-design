@@ -1,5 +1,12 @@
 {
-  "pages": {},
+  "pages": {
+    "/bytovy-interier": [],
+    "/exkluzivni-nabidky": [],
+    "/nase-sluzby": [],
+    "/realizace": [],
+    "/vizualizace": [],
+    "/web-grafika": []
+  },
   "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false
