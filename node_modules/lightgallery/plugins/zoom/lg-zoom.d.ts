@@ -29,6 +29,7 @@ export default class Zoom {
     private imageReset;
     zoomableTimeout: any;
     positionChanged: boolean;
+    zoomInProgress: boolean;
     pageX: number;
     pageY: number;
     scale: number;
