@@ -5,6 +5,10 @@ import ContactForm from "../components/form";
 // Předpokládám, že obrázky jsou uloženy ve složce 'public/images'
 const images = [
   {
+    small: "/img/pronajem/durychova-pronajem-small9.jpeg",
+    large: "/img/pronajem/durychova-pronajem9.jpeg",
+  },
+  {
     small: "/img/pronajem/durychova-pronajem-small1.jpeg",
     large: "/img/pronajem/durychova-pronajem1.jpeg",
   },
@@ -24,9 +28,30 @@ const images = [
     small: "/img/pronajem/durychova-pronajem-small5.jpeg",
     large: "/img/pronajem/durychova-pronajem5.jpeg",
   },
+
   {
-    small: "/img/pronajem/durychova-pronajem-small6.jpeg",
-    large: "/img/pronajem/durychova-pronajem6.jpeg",
+    small: "/img/pronajem/durychova-pronajem-small10.jpeg",
+    large: "/img/pronajem/durychova-pronajem10.jpeg",
+  },
+  {
+    small: "/img/pronajem/durychova-pronajem-small11.jpeg",
+    large: "/img/pronajem/durychova-pronajem11.jpeg",
+  },
+  {
+    small: "/img/pronajem/durychova-pronajem-small12.jpeg",
+    large: "/img/pronajem/durychova-pronajem12.jpeg",
+  },
+  {
+    small: "/img/pronajem/durychova-pronajem-small13.jpeg",
+    large: "/img/pronajem/durychova-pronajem13.jpeg",
+  },
+  {
+    small: "/img/pronajem/durychova-pronajem-small14.jpeg",
+    large: "/img/pronajem/durychova-pronajem14.jpeg",
+  },
+  {
+    small: "/img/pronajem/durychova-pronajem-small15.jpeg",
+    large: "/img/pronajem/durychova-pronajem15.jpeg",
   },
   {
     small: "/img/pronajem/durychova-pronajem-small7.jpeg",
@@ -45,9 +70,9 @@ const StudioPage = () => {
       {/* Nadpis a Popisek */}
       <Row className="my-4">
         <Col>
-          <h1>Moderní Studio pro Konzultace v Liberci</h1>
+          <h1>Moderní studio pro konzultace v Liberci</h1>
           <p>
-            Přijďte navštívit naše nově zrekonstruované studio v srdci Liberce,
+            Přijďte navštívit mé nově zrekonstruované studio v srdci Liberce,
             ideální pro firemní setkání a osobní konzultace.
           </p>
         </Col>
@@ -79,13 +104,11 @@ const StudioPage = () => {
 
       <Row className="my-4">
         <Col md={6} xs={12}>
-          <h2>Detailní Popis Místností</h2>
           <p>
-            Naše studio nabízí plně vybavenou konferenční místnost s moderní
-            audiovizuální technikou, ideální pro prezentace a workshopy. Máme
-            také útulný odpočinkový prostor pro neformální schůzky a relaxaci.
+            Mé studio nabízí plně vybavenou konferenční místnost s moderní
+            audiovizuální technikou, ideální pro prezentace a workshopy.
           </p>
-          <h3>Pro více informací a pronájem nás nevhejte kontaktovat</h3>
+          <h3>Pro konzultace ohledně designu mě neváhejte kontaktovat</h3>
         </Col>
         <Col md={6} xs={12} className="iframe-container">
           <iframe

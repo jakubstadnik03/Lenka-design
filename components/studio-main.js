@@ -14,7 +14,14 @@ const ConsultationStudioComponent = () => {
           <Carousel.Item className="m-auto">
             <img
               className="d-block w-100"
-              src="/img/pronajem/durychova-pronajem-small1.jpeg"
+              src="/img/pronajem/durychova-pronajem-small9.jpeg"
+              alt="Pronájem studia Liberec"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/img/pronajem/durychova-pronajem-small16.jpeg"
               alt="Pronájem studia Liberec"
             />
           </Carousel.Item>
@@ -32,22 +39,16 @@ const ConsultationStudioComponent = () => {
               alt="Pronájem studia Liberec"
             />
           </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/img/pronajem/durychova-pronajem-small7.jpeg"
-              alt="Pronájem studia Liberec"
-            />
-          </Carousel.Item>
+
           {/* Další obrázky */}
         </Carousel>
       </div>
       <div className="w-100 w-lg-50 ms-lg-4">
-        <h2>Moderní Studio pro Konzultace v Srdci Liberce</h2>
+        <h2>Moderní studio pro konzultace v Liberce</h2>
         <p>
-          Vítejte v našem nově zrekonstruovaném studiu, které je ideální pro
-          firemní setkání a konzultace. Nabízíme moderní prostředí s televizí a
-          nádherným designem, které je umístěno přímo v centru Liberce.
+          Vítejte v mém nově zrekonstruovaném studiu, které je ideální pro
+          firemní setkání a konzultace. Nabízím moderní prostředí, které je
+          umístěno přímo v centru Liberce.
         </p>
         <Link href="/pronajem-studia" passHref>
           <Button variant="primary">Více Informací</Button>

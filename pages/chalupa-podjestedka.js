@@ -101,7 +101,7 @@ const ChalupaPodjestedka = () => {
             rodinami, kteří mohou trávit čas i v přilehlém lanovém parku Horka.
             Tato oblast je také vyhledávaná turisty, cyklisty i lyžaři.
           </p>
-          <h3>Pro více informací a pronájem nás nevhejte kontaktovat</h3>
+          <h3>Pro více informací a pronájem mě neváhejte kontaktovat</h3>
         </Col>
         <Col md={6} xs={12} className="iframe-container">
           <iframe

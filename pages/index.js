@@ -4,6 +4,7 @@ import HeroSection from "../components/hero";
 import Card from "../components/card";
 import ConsultationStudioComponent from "../components/studio-main";
 import CottageRentalComponent from "../components/chalupa-main";
+import FlatRentalComponent from "../components/byt-main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -71,7 +72,7 @@ export default function Home() {
         <section className="max-width max-width-small">
           <p className="">
             Věnuji se návrhům interiérů, bytovému designu a Home stagingu již
-            přes 8let, mým cílem je, aby každý klient byl spokojen. Mohu Vám
+            přes 10let, mým cílem je, aby každý klient byl spokojen. Mohu Vám
             nabídnout 3D vizualizaci, návrhy dispozic nebo jen osobní konzultaci
             v interiérovém designu. Pracuji i online a přes videokonference.
             Soustředím se na projekty a návrhy interiérů v Liberci a okolí.
@@ -95,7 +96,7 @@ export default function Home() {
               ušetříte si stres i náklady do budoucna. Vkusně, prakticky a
               zodpovědně dojdeme ke správnému cíli.
             </p>
-            <p className="text-end fw-bold">Mga. Lenka Stádníková</p>
+            <p className="text-end fw-bold">MgA. Lenka Stádníková</p>
           </section>
         </section>
         <section
@@ -129,6 +130,7 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <FlatRentalComponent />
         <CottageRentalComponent />
       </main>
     </>

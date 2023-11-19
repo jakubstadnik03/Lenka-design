@@ -86,7 +86,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <div>
-                    Minkovická 170, 46312 Šimonovice, Liberec Česká republika
+                    Minkovická 170, 46312 Šimonovice, Liberec, Česká republika
                   </div>
                 </li>
                 <li>

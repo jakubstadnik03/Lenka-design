@@ -41,7 +41,10 @@ const CottageRentalComponent = () => {
         </Carousel>
       </div>
       <div className="w-100 w-lg-50 ms-lg-4">
-        <h2>Chalupa Podještědka – Rozstání v Podještědí</h2>
+        <h2>
+          Chalupa Podještědka – Rozstání v Podještědí, možnost krátkodobého
+          pronájmu
+        </h2>
         <p>
           Prožijte nezapomenutelný pobyt v Chalupě Podještědka, nedaleko
           golfového hřiště Ještěd a lanového parku Horka. Nově zrekonstruovaná a
