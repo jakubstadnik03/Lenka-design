@@ -179,6 +179,7 @@ overflow-x: auto;
   .lg-react-element{
     display: block;
     }
+    
 }
 @media (max-width: 767px) {
   .iframe-container iframe {
@@ -186,6 +187,15 @@ overflow-x: auto;
     height: auto; /* Adjust height as needed */
     margin: 0 auto; /* Center the iframe */
     display: block; /* Ensure it takes the full width */
+  }
+  .display-1{
+    font-size: 2em !important;
+    margin-top: 20px;
+  }
+  .fs-3{
+    font-size: 1.5em !important;
+    color: var(--dark-gray);
+    font-weight: bold;
   }
 }
 

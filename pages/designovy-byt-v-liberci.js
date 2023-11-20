@@ -5,9 +5,10 @@ import ContactForm from "../components/form";
 // Předpokládám, že obrázky jsou uloženy ve složce 'public/images'
 const images = [
   {
-    large: "img/durychova/durychova-large4.webp",
-    small: "img/durychova/durychova-large4.webp",
+    large: "img/pronajem/durychova-pronajem-newl0.jpeg",
+    small: "img/pronajem/durychova-pronajem-newl0.jpeg",
   },
+
   {
     large: "img/durychova/durychova-large5.webp",
     small: "img/durychova/durychova-large5.webp",
@@ -33,8 +34,16 @@ const images = [
     small: "img/durychova/durychova-large10.webp",
   },
   {
+    large: "img/pronajem/durychova-pronajem-newl1.jpeg",
+    small: "img/pronajem/durychova-pronajem-newl1.jpeg",
+  },
+  {
     large: "img/durychova/durychova-large11.webp",
     small: "img/durychova/durychova-large11.webp",
+  },
+  {
+    large: "img/pronajem/durychova-pronajem-newl2.jpeg",
+    small: "img/pronajem/durychova-pronajem-newl2.jpeg",
   },
   {
     large: "img/durychova/durychova-large1.webp",
@@ -52,7 +61,9 @@ const DesignovyByt = () => {
     <Container>
       <Row className="my-4">
         <Col xs={12}>
-          <h1>Designový byt v srdci Liberce, možnost krátkodobého pronájmu</h1>
+          <h1>
+            Designový apartmá v srdci Liberce, možnost krátkodobého pronájmu
+          </h1>
           <p>
             Byt je výjimečný svým moderním designem a skvělou polohou v srdci
             Liberce. Po celkové rekonstrukci, kterou provedla zkušená
@@ -92,15 +103,14 @@ const DesignovyByt = () => {
         <Col md={6} xs={12}>
           <h2>Popis ubytování</h2>
           <p>
-            Prostor Vítáme vás v tomto skvěle umístěném bytě, který se nachází v
-            centru Liberce, jen pár minut chůze od Libereckého náměstí a
-            radnice. Okolí bytu nabízí nekonečné možnosti pro kulturní zážitky,
-            jako jsou divadla, galerie a muzea, která jsou vzdálená pouhých pět
-            minut chůze. V blízkosti bytu je kavárna a několik restaurací. Jen
-            přes ulici od bytu je menší obchodní centrum s samoobsluhou Albert a
-            restaurací s rychlým občerstvením. Jen 2min chůze se nachází
-            plavecký bazén, který nabízí ideální relaxaci po náročném dni plném
-            zábavy či práce.
+            Tento skvěle umístěném bytě, který se nachází v centru Liberce, jen
+            pár minut chůze od Libereckého náměstí a radnice. Okolí bytu nabízí
+            nekonečné možnosti pro kulturní zážitky, jako jsou divadla, galerie
+            a muzea, která jsou vzdálená pouhých pět minut chůze. V blízkosti
+            bytu je kavárna a několik restaurací. Jen přes ulici od bytu je
+            menší obchodní centrum s samoobsluhou Albert a restaurací s rychlým
+            občerstvením. Jen 2min chůze se nachází plavecký bazén, který nabízí
+            ideální relaxaci po náročném dni plném zábavy či práce.
           </p>
 
           <p>

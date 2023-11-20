@@ -34,14 +34,16 @@ const FlatRentalComponent = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="img/durychova/durychova-large10.webp"
+              src="img/pronajem/durychova-pronajem-newl0.jpeg"
               alt="Design bytového interiéru Liberec"
             />
           </Carousel.Item>
         </Carousel>
       </div>
       <div className="w-100 w-lg-50 ms-lg-4">
-        <h2>Designový byt v srdci Liberce, možnost krátkodobého pronájmu</h2>
+        <h2>
+          Designový apartmá v srdci Liberce, možnost krátkodobého pronájmu
+        </h2>
         <p>
           Byt je výjimečný svým moderním designem a skvělou polohou v srdci
           Liberce. Po celkové rekonstrukci, kterou provedla zkušená designérka,
