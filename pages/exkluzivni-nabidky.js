@@ -6,6 +6,8 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 import { Carousel, Image, Button, Container } from "react-bootstrap";
 import Link from "next/link";
+import Head from "next/head";
+
 
 const exkluzivniNabidky = () => {
   const images = [

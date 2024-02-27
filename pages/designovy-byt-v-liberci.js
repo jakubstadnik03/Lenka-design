@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Modal, Form, Button } from "react-bootstrap";
 import ContactForm from "../components/form";
+import Head from "next/head";
+
 
 // Předpokládám, že obrázky jsou uloženy ve složce 'public/images'
 const images = [
