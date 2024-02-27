@@ -34,6 +34,8 @@ export default function KomercniInterier() {
         <title>
           Návrh komerčních interiérů - Liberec a okolí | Lenka Design
         </title>
+        <meta name="description" content="Zvýrazněte identitu vaší značky prostřednictvím profesionálně navržených komerčních prostor. Naše služby návrhu interiérů v Liberci pomáhají podnikům vytvářet inspirativní a produktivní pracovní prostředí." />
+
       </Head>
       <div className="max-width text-block types">
         <h1>Návrh komerčních interiérů - Liberec a okolí</h1>

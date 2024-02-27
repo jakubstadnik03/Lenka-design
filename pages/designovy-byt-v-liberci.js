@@ -58,6 +58,12 @@ const DesignovyByt = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
+    <><Head>
+    <title>Lenka Design | Pronájem designového bytu v Liberci</title>
+    <meta name="description" content="Hledáte moderní prostor pro vaše firemní setkání nebo konzultace v centru Liberce? Naše studio nabízí ideální řešení s kompletním vybavením a výhodnou polohou." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+  </Head>
     <Container>
       <Row className="my-4">
         <Col xs={12}>
@@ -164,6 +170,7 @@ const DesignovyByt = () => {
 
       <ContactForm gdpr={true} />
     </Container>
+    </>
   );
 };
 

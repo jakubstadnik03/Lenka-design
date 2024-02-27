@@ -23,6 +23,8 @@ export default function naseSluzby() {
     <>
       <Head>
         <title>Seznam poskytovaných služeb | Lenka Design</title>
+        <meta name="description" content="Objevte špičkové služby v oblasti designu interiérů od LenkaDesign.cz – od osobních konzultací až po exkluzivní nábytek a homestaging v Liberci. Přeměňte svůj prostor v dokonalý domov s naší pomocí!" />
+
       </Head>
       <main>
         <div className="sluzby scroll sluzby-wrapper sluzby-second">

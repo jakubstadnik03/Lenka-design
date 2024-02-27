@@ -129,6 +129,12 @@ const exkluzivniNabidky = () => {
   ];
   return (
     <main>
+      <Head>
+    <title>Exkluzivní nábytek Prianera | Lenka design</title>
+    <meta name="description" content="Dopřejte si luxus s naším exkluzivním nábytkem Prianera. Navštivte náš showroom v Liberci a objevte, jak může správný nábytek proměnit celý váš domov." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+  </Head>
       <div style={{ position: "relative" }}>
         <Carousel>
           <Carousel.Item>

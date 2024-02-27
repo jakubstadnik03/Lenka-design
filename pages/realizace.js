@@ -45,6 +45,8 @@ export default function realizace() {
     <>
       <Head>
         <title>Realizace interiéru | Lenka Design</title>
+        <meta name="description" content="Prohlédněte si naše nejnovější realizace interiéru a nechte se inspirovat dokončenými projekty od LenkaDesign.cz. Kvalita a styl, který promění váš prostor v Liberci a okolí." />
+
       </Head>
       <main>
         <div className="max-width ">

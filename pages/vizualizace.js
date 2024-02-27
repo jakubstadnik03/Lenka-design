@@ -32,6 +32,8 @@ export default function realizace() {
     <>
       <Head>
         <title>Vizualizace interiéru | Lenka Design</title>
+        <meta name="description" content="Objevte sílu 3D vizualizací interiérů od LenkaDesign.cz a představte si váš budoucí domov ještě před realizací. Přesné a detailní vizualizace v Liberci, které oživí váš vysněný prostor." />
+
       </Head>
       <main>
         <div className="max-width ">

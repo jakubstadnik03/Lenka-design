@@ -62,6 +62,8 @@ function BytInterier() {
     <>
       <Head>
         <title>Návrh bytových interiérů - Liberec a okolí | Lenka Design</title>
+        <meta name="description" content="Proměňte svůj byt v dokonalý domov s našimi kreativními a funkčními návrhy interiérů. V Liberci a okolí vytváříme prostory, které odrážejí váš osobní styl. Zjistěte více o našich službách." />
+
       </Head>
       <div className="max-width types">
         <h1>Návrh bytových interiérů - Liberec a okolí</h1>

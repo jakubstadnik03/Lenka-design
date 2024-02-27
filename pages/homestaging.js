@@ -26,6 +26,8 @@ function Homestaging() {
     <>
       <Head>
         <title>Homestaging | Lenka Design</title>
+        <meta name="description" content="Zvyšte hodnotu vaší nemovitosti a urychlete její prodej s našimi službami homestagingu v Liberci. Připravíme váš domov k prodeji tak, aby zaujal každého potenciálního kupce." />
+
       </Head>
       <div className=" max-width text-block types">
         <h1>Homestaging - Liberec</h1>

@@ -4,6 +4,8 @@ function Konzultace() {
     <>
       <Head>
         <title>Konzultace | Lenka Design</title>
+        <meta name="description" content="Získejte profesionální radu pro váš interiérový design od Lenky Stádníkové. Nabízíme osobní i online konzultace pro klienty v Liberci a okolí. Objednejte si svou konzultaci ještě dnes." />
+
       </Head>
       <div className="max-width text-block types">
         <h1>Konzultace</h1>
