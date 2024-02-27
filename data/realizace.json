@@ -15,6 +15,14 @@
         {"link": "#nabytek_na_miru", "text": "Nábytek na míru", "img": "img/realizace/main/nabytek_na_miru_small_main.jpeg"}
     ],
     "komercniProjekty":[
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small1.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace1.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small2.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace2.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small3.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace3.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small4.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace4.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small5.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace5.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small6.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace6.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small7.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace7.jpeg" },
+      { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small8.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace8.jpeg" },
       { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small1.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large1.jpeg" },
       { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small2.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large2.jpeg" },
       { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small3.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large3.jpeg" },
@@ -65,6 +73,10 @@
       { "thumbnail":"img/realizace/homestaging/homestaging_small12.jpeg", "image":"img/realizace/homestaging/homestaging_large12.jpeg" }
     ],
     "kuchyne":[
+      { "thumbnail":"img/realizace/kuchyne/kuchyne-small1.jpeg", "image":"img/realizace/kuchyne/kuchyne1.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne-small2.jpeg", "image":"img/realizace/kuchyne/kuchyne2.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne-small3.jpeg", "image":"img/realizace/kuchyne/kuchyne3.jpeg" },
+      { "thumbnail":"img/realizace/kuchyne/kuchyne-small4.jpeg", "image":"img/realizace/kuchyne/kuchyne4.jpeg" },
       { "thumbnail":"img/realizace/kuchyne/kuchyne_small1.jpeg", "image":"img/realizace/kuchyne/kuchyne_large1.jpeg" },
       { "thumbnail":"img/realizace/kuchyne/kuchyne_small2.jpeg", "image":"img/realizace/kuchyne/kuchyne_large2.jpeg" },
       { "thumbnail":"img/realizace/kuchyne/kuchyne_small3.jpeg", "image":"img/realizace/kuchyne/kuchyne_large3.jpeg" },
@@ -77,6 +89,11 @@
       { "thumbnail":"img/realizace/kuchyne/kuchyne_small10.jpeg", "image":"img/realizace/kuchyne/kuchyne_large10.jpeg" }
     ],
     "obyvaciPokoje":[
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci-pokoj-small1.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoj1.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci-pokoj-small2.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoj2.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci-pokoj-small3.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoj3.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci-pokoj-small4.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoj4.jpeg" },
+      { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci-pokoj-small5.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoj5.jpeg" },
       { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small1.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large1.jpeg" },
       { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small2.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large2.jpeg" },
       { "thumbnail":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_small3.jpeg", "image":"img/realizace/obyvaci_pokoje/obyvaci_pokoje_large3.jpeg" },
@@ -93,6 +110,9 @@
       { "thumbnail":"img/realizace/detsky_pokoje/detske_pokoje_small6.jpeg", "image":"img/realizace/detsky_pokoje/detske_pokoje_large6.jpeg" }
     ],
     "loznice":[
+      { "thumbnail":"img/realizace/loznice/loznice-small1.jpeg", "image":"img/realizace/loznice/loznice1.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice-small2.jpeg", "image":"img/realizace/loznice/loznice2.jpeg" },
+      { "thumbnail":"img/realizace/loznice/loznice-small3.jpeg", "image":"img/realizace/loznice/loznice3.jpeg" },
       { "thumbnail":"img/realizace/loznice/loznice_small1.jpeg", "image":"img/realizace/loznice/loznice_large1.jpeg" },
       { "thumbnail":"img/realizace/loznice/loznice_small2.jpeg", "image":"img/realizace/loznice/loznice_large2.jpeg" },
       { "thumbnail":"img/realizace/loznice/loznice_small3.jpeg", "image":"img/realizace/loznice/loznice_large3.jpeg" },
@@ -103,6 +123,14 @@
       { "thumbnail":"img/realizace/loznice/loznice_small8.jpeg", "image":"img/realizace/loznice/loznice_large8.jpeg" }
     ],
     "koupelny":[
+      { "thumbnail":"img/realizace/koupelny/koupelna-small1.jpeg", "image":"img/realizace/koupelny/koupelna1.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small2.jpeg", "image":"img/realizace/koupelny/koupelna2.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small3.jpeg", "image":"img/realizace/koupelny/koupelna3.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small4.jpeg", "image":"img/realizace/koupelny/koupelna4.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small5.jpeg", "image":"img/realizace/koupelny/koupelna5.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small6.jpeg", "image":"img/realizace/koupelny/koupelna6.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small7.jpeg", "image":"img/realizace/koupelny/koupelna7.jpeg" },
+      { "thumbnail":"img/realizace/koupelny/koupelna-small8.jpeg", "image":"img/realizace/koupelny/koupelna8.jpeg" },
       { "thumbnail":"img/realizace/koupelny/koupelny_small1.jpeg", "image":"img/realizace/koupelny/koupelny_large1.jpeg" },
       { "thumbnail":"img/realizace/koupelny/koupelny_small2.jpeg", "image":"img/realizace/koupelny/koupelny_large2.jpeg" },
       { "thumbnail":"img/realizace/koupelny/koupelny_small3.jpeg", "image":"img/realizace/koupelny/koupelny_large3.jpeg" },

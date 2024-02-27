@@ -7,7 +7,7 @@ import lgZoom from "lightgallery/plugins/zoom";
 
 export default function ImageGallery(props) {
   return (
-    <div className="sluzba max-width" key={props.title}>
+    <div className="sluzba max-width max-width-gallery" key={props.title}>
       <div className="sluzba-text-wrapper">
         <h2 id={props.id} className="sluzba-title">
           {props.title}

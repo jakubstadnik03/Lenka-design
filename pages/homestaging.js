@@ -1,5 +1,27 @@
 import Head from "next/head";
+import LightGallery from "lightgallery/react";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 function Homestaging() {
+  const images = [
+
+      { "thumbnail":"img/realizace/homestaging/homestaging_small1.jpeg", "image":"img/realizace/homestaging/homestaging_large1.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small2.jpeg", "image":"img/realizace/homestaging/homestaging_large2.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small3.jpeg", "image":"img/realizace/homestaging/homestaging_large3.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small4.jpeg", "image":"img/realizace/homestaging/homestaging_large4.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small5.jpeg", "image":"img/realizace/homestaging/homestaging_large5.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small6.jpeg", "image":"img/realizace/homestaging/homestaging_large6.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small7.jpeg", "image":"img/realizace/homestaging/homestaging_large7.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small8.jpeg", "image":"img/realizace/homestaging/homestaging_large8.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small9.jpeg", "image":"img/realizace/homestaging/homestaging_large9.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small10.jpeg", "image":"img/realizace/homestaging/homestaging_large10.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small11.jpeg", "image":"img/realizace/homestaging/homestaging_large11.jpeg" },
+      { "thumbnail":"img/realizace/homestaging/homestaging_small12.jpeg", "image":"img/realizace/homestaging/homestaging_large12.jpeg" }
+
+  ]
   return (
     <>
       <Head>
@@ -43,6 +65,20 @@ function Homestaging() {
         </p>
         <p>Připravím Vám nemovitost, kterou bude chtít každý!</p>
       </div>
+      <section className="max-width max-width-gallery">
+        <h2>Fotogalerie homestagingu bytových interiérů</h2>
+        <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+          {images.map((item, index) => (
+            <a href={item.image} key={index}>
+              <img
+                src={item.thumbnail}
+                className="gallery-img"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </LightGallery>
+      </section>
     </>
   );
 }

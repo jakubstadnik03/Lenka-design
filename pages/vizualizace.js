@@ -34,7 +34,7 @@ export default function realizace() {
         <title>Vizualizace interiéru | Lenka Design</title>
       </Head>
       <main>
-        <div className="max-width">
+        <div className="max-width ">
           <h1>Vizualizace</h1>
 
           <div className="description scroll druhy sluzby-main sluzby-wrapper">

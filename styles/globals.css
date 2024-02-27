@@ -65,7 +65,9 @@ p{
   margin: .2em;
 
 }
-
+.max-width-gallery{
+  max-width: 1300px !important;
+}
 
 main {
 

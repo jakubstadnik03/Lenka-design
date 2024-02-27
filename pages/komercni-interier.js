@@ -1,5 +1,33 @@
 import Head from "next/head";
+import LightGallery from "lightgallery/react";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-thumbnail.css";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 export default function KomercniInterier() {
+
+  const images = [
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small1.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace1.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small2.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace2.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small3.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace3.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small4.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace4.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small5.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace5.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small6.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace6.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small7.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace7.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komersni-realizace-small8.jpeg", "image":"img/realizace/komercni_projekty/komersni-realizace8.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small1.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large1.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small2.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large2.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small3.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large3.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small4.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large4.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small5.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large5.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small6.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large6.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small7.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large7.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small8.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large8.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small9.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large9.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small10.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large10.jpeg" },
+    { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small11.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large11.jpeg" }
+  ]
   return (
     <>
       <Head>
@@ -39,6 +67,20 @@ export default function KomercniInterier() {
           do zaměstnání, kde tráví spoustu času chodil rád😊
         </p>
       </div>
+      <section className="max-width max-width-gallery">
+        <h2>Fotogalerie komerčních interiérů</h2>
+        <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+          {images.map((item, index) => (
+            <a href={item.image} key={index}>
+              <img
+                src={item.thumbnail}
+                className="gallery-img"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </LightGallery>
+      </section>
     </>
   );
 }

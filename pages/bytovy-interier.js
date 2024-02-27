@@ -113,7 +113,7 @@ function BytInterier() {
           případně doporučení realizační firmy.
         </p>
       </div>
-      <section className="max-width">
+      <section className="max-width max-width-gallery">
         <h2>Fotogalerie realizace bytových interiérů</h2>
         <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
           {images.map((item, index) => (
